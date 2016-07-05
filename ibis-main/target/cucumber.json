@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "# 1:"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2737468594,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalHooks.beforeAll()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Als Ibis Main gebruiker kan ik een demo project openenen",
+        "description": "",
+        "id": "ibis-main---open-the-demo-project;als-ibis-main-gebruiker-kan-ik-een-demo-project-openenen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23685125591,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Gegeven dat ik ingelogged ben",
+            "match": {
+              "location": "LoginSteps.Gegeven_in_ingelogged_ben()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11637807509,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Wanneer ik naar Ibis Main ga",
+            "match": {
+              "location": "IbisMainSteps.Wanneer_ik_naar_ibis_main_ga()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12819141316,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "En ik het IbisMain demo project open",
+            "match": {
+              "location": "IbisMainSteps.En_ik_het_IbisMain_demo_project_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17334910,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat test.java.step_definitions.IbisMainSteps.Dan_zie_ik_het_IbisMain_demo_project(IbisMainSteps.java:34)\r\n\tat ✽.Then Dan zie ik het IbisMain demo project(Ibis_main_general.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Dan zie ik het IbisMain demo project",
+            "match": {
+              "location": "IbisMainSteps.Dan_zie_ik_het_IbisMain_demo_project()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ibis Main - open the demo project",
+    "description": "",
+    "id": "ibis-main---open-the-demo-project",
+    "keyword": "Feature",
+    "uri": "Ibis_main_general.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@web"
+      }
+    ]
+  }
+]

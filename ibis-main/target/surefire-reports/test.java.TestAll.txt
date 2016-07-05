@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: test.java.TestAll
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 6, Skipped: 9, Time elapsed: 41.671 sec <<< FAILURE!
+Given Gegeven dat ik ingelogged ben(Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(Ibis4risk.feature:6)
+
+Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(Ibis4risk.feature:6)
+
+Given Gegeven dat ik ingelogged ben(Scenario: Als Ibis Main gebruiker kan ik een demo project openenen)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
+
+Scenario: Als Ibis Main gebruiker kan ik een demo project openenen  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
+
+Given Gegeven dat ik ingelogged ben(Scenario: Als Ibis Main gebruiker kan ik een demo project openenen)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(test/Ibis_main_general.feature:6)
+
+Scenario: Als Ibis Main gebruiker kan ik een demo project openenen  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(test/Ibis_main_general.feature:6)
+

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: test.java.FirstTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 14.299 sec <<< FAILURE!
+Given Gegeven dat ik ingelogged ben(Scenario: Als Ibis Main gebruiker kan ik een demo project openenen)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
+
+Scenario: Als Ibis Main gebruiker kan ik een demo project openenen  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NullPointerException
+	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
+	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
+	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
+	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
+
