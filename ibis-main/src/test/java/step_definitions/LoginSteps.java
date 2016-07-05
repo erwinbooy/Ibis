@@ -44,9 +44,7 @@ public class LoginSteps{
 	@And("^En ik log in$")
 	public void En_ik_log_in() throws Throwable {
 		// For the poc we just create a user here
-		myUser.setUserid("e.booij@ibis.nl");
-		myUser.setUserpwd("S@ndr@12345");
-		myUser.setUsername("Erwin Booij");
+		User myUser = TestUser.getTestUser();
 		LoginPage loginPage = PageProvider.getLoginPage();
 		loginPage.signIn(myUser);
 	}

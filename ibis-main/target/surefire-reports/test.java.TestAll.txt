@@ -1,46 +1,88 @@
 -------------------------------------------------------------------------------
 Test set: test.java.TestAll
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 0, Errors: 6, Skipped: 9, Time elapsed: 41.671 sec <<< FAILURE!
-Given Gegeven dat ik ingelogged ben(Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ?.Given Gegeven dat ik ingelogged ben(Ibis4risk.feature:6)
+Tests run: 21, Failures: 0, Errors: 4, Skipped: 2, Time elapsed: 37.113 sec <<< FAILURE!
+And En ik het IbisMain demo project open(Scenario: Als Ibis Main gebruiker kan ik een demo project openenen)  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: <div class="page-splash-message"></div>
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NB008038', ip: '172.20.31.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ?.And En ik het IbisMain demo project open(Ibis_main_general.feature:8)
 
-Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen  Time elapsed: 0.001 sec  <<< ERROR!
-java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ?.Given Gegeven dat ik ingelogged ben(Ibis4risk.feature:6)
+Scenario: Als Ibis Main gebruiker kan ik een demo project openenen  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: <div class="page-splash-message"></div>
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NB008038', ip: '172.20.31.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ?.And En ik het IbisMain demo project open(Ibis_main_general.feature:8)
 
-Given Gegeven dat ik ingelogged ben(Scenario: Als Ibis Main gebruiker kan ik een demo project openenen)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
+And En ik het IbisMain demo project open(Scenario: Als Ibis Main gebruiker kan ik een demo project openenen)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: <div class="page-splash-message"></div>
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NB008038', ip: '172.20.31.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ?.And En ik het IbisMain demo project open(test/Ibis_main_general.feature:8)
 
-Scenario: Als Ibis Main gebruiker kan ik een demo project openenen  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
-
-Given Gegeven dat ik ingelogged ben(Scenario: Als Ibis Main gebruiker kan ik een demo project openenen)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ?.Given Gegeven dat ik ingelogged ben(test/Ibis_main_general.feature:6)
-
-Scenario: Als Ibis Main gebruiker kan ik een demo project openenen  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ?.Given Gegeven dat ik ingelogged ben(test/Ibis_main_general.feature:6)
+Scenario: Als Ibis Main gebruiker kan ik een demo project openenen  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: <div class="page-splash-message"></div>
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NB008038', ip: '172.20.31.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ?.And En ik het IbisMain demo project open(test/Ibis_main_general.feature:8)
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="21" failures="0" name="test.java.TestAll" time="0.012" errors="6" skipped="9">
+<testsuite tests="21" failures="0" name="test.java.TestAll" time="0.011" errors="4" skipped="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="IbisMain"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="poc"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -25,7 +25,7 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="nl"/>
     <property name="M2" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin"/>
-    <property name="BUILD_DISPLAY_NAME" value="#26"/>
+    <property name="BUILD_DISPLAY_NAME" value="#31"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_91"/>
@@ -36,7 +36,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="26"/>
+    <property name="BUILD_ID" value="31"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,6 +56,7 @@
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.91-b15"/>
     <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="4c25f5751127d6d1152e796d4e1da196f91b9120"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_91"/>
@@ -70,7 +71,7 @@
     <property name="POM_GROUPID" value="Ibis-main"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-IbisMain-26"/>
+    <property name="BUILD_TAG" value="jenkins-IbisMain-31"/>
     <property name="JENKINS_SERVER_COOKIE" value="1cfa489debfebcc3"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -84,7 +85,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files\Apache Software Foundation\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.59.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 18697"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files\Apache Software Foundation\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.59.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 23930"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_91/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -99,26 +100,28 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/IbisMain/26/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/IbisMain/31/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\ebooij\workspace\ibis-main"/>
+    <property name="user.dir" value="C:\Users\ebooij\git\ibis\ibis-main"/>
     <property name="JOB_URL" value="http://localhost:8080/job/IbisMain/"/>
     <property name="USERDOMAIN" value="BG"/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="26"/>
+    <property name="BUILD_NUMBER" value="31"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="3c03"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
+    <property name="GIT_COMMIT" value="4c25f5751127d6d1152e796d4e1da196f91b9120"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
@@ -127,157 +130,2755 @@
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\"/>
+    <property name="GIT_URL" value="https://github.com/erwinbooy/Ibis"/>
   </properties>
-  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="Given Gegeven dat ik ingelogged ben" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ✽.Given Gegeven dat ik ingelogged ben(Ibis4risk.feature:6)
+  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="Given Gegeven dat ik ingelogged ben" time="0"/>
+  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="When Wanneer ik naar Ibis4Risk ga" time="0"/>
+  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="And En ik het Ibis4Risk demo project open" time="0"/>
+  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="Then Dan zie ik het Ibis4Risk demo project" time="0.001"/>
+  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" time="0.001"/>
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Given Gegeven dat ik ingelogged ben" time="0"/>
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="When Wanneer ik naar Ibis Main ga" time="0"/>
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="And En ik het IbisMain demo project open" time="0">
+    <error message="Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 67 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 67 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ✽.And En ik het IbisMain demo project open(Ibis_main_general.feature:8)
 </error>
-    <system-out>
-  # 1:
-  Scenario: Als Ibis Main gebruiker kan ik een demo project openenen &amp;#27;[90m# Ibis_main_general.feature:5&amp;#27;[0m
-    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mGegeven dat ik ingelogged ben&amp;#27;[0m                              &amp;#27;[90m# LoginSteps.Gegeven_in_ingelogged_ben()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.NullPointerException
-      	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-      	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-      	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-      	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
-      &amp;#27;[0m
-    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mWanneer ik naar Ibis Main ga&amp;#27;[0m                                &amp;#27;[90m# IbisMainSteps.Wanneer_ik_naar_ibis_main_ga()&amp;#27;[0m
-    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mEn ik het IbisMain demo project open&amp;#27;[0m                         &amp;#27;[90m# IbisMainSteps.En_ik_het_IbisMain_demo_project_open()&amp;#27;[0m
-    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mDan zie ik het IbisMain demo project&amp;#27;[0m                        &amp;#27;[90m# IbisMainSteps.Dan_zie_ik_het_IbisMain_demo_project()&amp;#27;[0m
+    <system-out>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; class=&quot;k-ff k-ff47&quot;&gt;&lt;head&gt;&lt;style type=&quot;text/css&quot;&gt;@charset &quot;UTF-8&quot;;[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}&lt;/style&gt;
+   &lt;base href=&quot;https://main-test.ibis.nl/&quot; /&gt;
+   &lt;meta charset=&quot;utf-8&quot; /&gt;
+   &lt;meta content=&quot;IE=edge, chrome=1&quot; http-equiv=&quot;X-UA-Compatible&quot; /&gt;
+   &lt;meta content=&quot;width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no&quot; name=&quot;viewport&quot; /&gt;
+   &lt;title data-ng-bind=&quot;title&quot;&gt;&lt;/title&gt;
+   &lt;style&gt;
+      /* This helps the ng-show/ng-hide animations start at the right place. */
+      /* Since Angular has this but needs to load, this gives us the class early. */
+      .ng-hide {
+         display: none !important;
+      }
+   &lt;/style&gt;
 
-&amp;#27;[31mFailed scenarios:&amp;#27;[0m
-&amp;#27;[31mIbis_main_general.feature:5 &amp;#27;[0m# Scenario: Als Ibis Main gebruiker kan ik een demo project openenen
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/ol3/css/ol.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-bootstrap/css/ibis.bootstrap.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-font/css/font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-main-font/css/ibis-main-font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ibis/ibis-font/specialfont.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.common.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.ibis.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.dataviz.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/font-awesome/css/font-awesome.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/toastr/toastr.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/handsontable/dist/handsontable.full.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ReportViewer/styles/telerikReportViewer.css&quot; /&gt;
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/pikaday/css/pikaday.css&quot; /&gt;
 
-1 Scenarios (&amp;#27;[31m1 failed&amp;#27;[0m)
-4 Steps (&amp;#27;[31m1 failed&amp;#27;[0m, &amp;#27;[36m3 skipped&amp;#27;[0m)
-0m13,921s
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/bundle/styles.css?v=oeZ5vDcLfJgKv0LtM9ekWOb2vcwvZBTVzvcMB4L8Tj81&quot; /&gt;
 
-java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
 
-@web
-Feature: Ibis4Risk - open the demo project
-</system-out>
-    <system-err>jul 05, 2016 8:14:24 AM Article Writer getTestUser
-SEVERE: java.io.FileNotFoundException: C:\Users\ebooij\workspace\ibis-main\testusers.csv (Het systeem kan het opgegeven bestand niet vinden)
-jul 05, 2016 8:14:24 AM Article Writer getTestUser
-WARNING: Exception while trying to close the file reader
-</system-err>
+   &lt;link href=&quot;favicon.png&quot; rel=&quot;shortcut icon&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;html {
+  position: relative;
+  min-height: 100%;
+}
+.fczbkk-popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fczbkk-popover-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 1em;
+  width: 300px;
+  box-sizing: border-box;
+}
+.fczbkk-popover-scroll_message {
+  display: none;
+}
+.fczbkk-popover-pointer-shape {
+  fill: #fff;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+.fczbkk-popover-pointer-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.fczbkk-popover-orphan {
+  position: fixed;
+}
+.fczbkk-popover-orphan .fczbkk-popover-static_pointer .fczbkk-popover-pointer-holder {
+  display: none;
+}
+.fczbkk-popover-static_pointer {
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent;
+  width: 0;
+  height: 0;
+}
+.fczbkk-popover-supports_svg .fczbkk-popover-static_pointer {
+  display: none;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer {
+  right: -10px;
+  border-left-color: #ccc;
+  border-right-width: 0;
+}
+.fczbkk-popover-left .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  left: -10px;
+  border-right-color: #ccc;
+  border-left-width: 0;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-left .fczbkk-popover-static_pointer {
+  top: 50%;
+  margin-top: -5px;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer {
+  top: -10px;
+  border-bottom-color: #ccc;
+  border-top-width: 0;
+}
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  bottom: -10px;
+  border-top-color: #ccc;
+  border-bottom-width: 0;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer {
+  left: 50%;
+  margin-left: -5px;
+}
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer {
+  top: 0;
+}
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  bottom: 0;
+}
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer {
+  right: 0;
+}
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  left: 0;
+}
+&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.inmplayer_tpl_step_fullscreen {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.inmplayer_tpl_step_left_side,
+.inmplayer_tpl_step_right_side {
+  position: fixed !important;
+  top: 0 !important;
+  height: 100vh;
+  border-radius: 0 !important;
+}
+.inmplayer_tpl_step_left_side {
+  left: 0 !important;
+  right: auto !important;
+}
+.inmplayer_tpl_step_right_side {
+  left: auto !important;
+  right: 0 !important;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-content {
+  padding: 0;
+}
+.inmplayer_tpl_step_top_image .inmplayer-template-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-template-content {
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-buttons,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-buttons {
+  padding: 0 20px 10px 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header {
+  background-color: #f0f0f0;
+  min-height: 40px;
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header img {
+  padding-right: 10px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header h1 {
+  font-size: 18px;
+  margin: 0;
+  line-height: 40px;
+}
+.inmplayer-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #0286c2;
+  border-radius: 5px;
+  text-align: center;
+}
+.inmplayer-general {
+  font-size: 14px;
+}
+.inmplayer-launcher {
+  box-sizing: content-box;
+  width: 20px;
+  line-height: 20px;
+  background: #c00;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  cursor: hand;
+}
+.inmplayer-trigger {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  font-size: 18px;
+  line-height: 36px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger,
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  width: 140px;
+  text-align: center;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger {
+  left: 50%;
+  margin-left: -70px;
+}
+.inmplayer-position-bottom .inmplayer-trigger {
+  bottom: 10px;
+}
+.inmplayer-position-top .inmplayer-trigger {
+  top: 10px;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger {
+  top: 50%;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger {
+  left: -70px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger {
+  right: -70px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.inmplayer-position-bottom_right .inmplayer-trigger {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-position-bottom_left .inmplayer-trigger {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-position-top_right .inmplayer-trigger {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-position-top_left .inmplayer-trigger {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-position-left_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-position-right_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-right_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-popover {
+  font-size: 14px;
+  line-height: 21px;
+}
+.inmplayer-popover-pointer-shape {
+  fill: #03a9f4;
+  stroke: #03a9f4;
+  stroke-width: 1px;
+}
+.inmplayer-popover-wrapper {
+  background: #fff;
+  color: #222;
+  border: 1px solid #e6f1f6;
+  border-radius: 5px;
+  padding: 0;
+  width: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.inmplayer-popover-scroll_message {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  text-align: center;
+  background: #79d4fd;
+}
+.inmplayer-popover-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+}
+.inmplayer-popover-content {
+  padding: 1em;
+}
+.inmplayer-popover-title {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.inmplayer-popover-progress {
+  line-height: 2em;
+  text-align: center;
+  z-index: 10;
+}
+.inmplayer-popover-buttons {
+  margin-top: 1em;
+  overflow: hidden;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next,
+.inmplayer-popover-button-end {
+  z-index: 20;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next {
+  float: left;
+  margin-right: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-previous,
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-next {
+  float: left;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.inmplayer-popover-button-end {
+  float: right;
+  margin-left: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-end {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.inmplayer-popover-branding {
+  display: block;
+  border-top: 1px solid #e6f1f6;
+  text-align: center;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.inmplayer-popover-branding span {
+  text-decoration: underline;
+}
+.inmplayer-firstStep .inmplayer-popover-button-previous,
+.inmplayer-lastStep .inmplayer-popover-button-next {
+  display: none;
+}
+.hide_prev .inmplayer-popover-button-previous,
+.hide_next .inmplayer-popover-button-next,
+.hide_progress .inmplayer-popover-progress,
+.hide_navigation .inmplayer-popover-button-previous,
+.hide_navigation .inmplayer-popover-button-next,
+.hide_end .inmplayer-popover-button-end,
+.hide_close .inmplayer-popover-close-button,
+.hide_controls .inmplayer-popover-button-previous,
+.hide_controls .inmplayer-popover-button-next,
+.hide_controls .inmplayer-popover-button-end,
+.hide_title .inmplayer-popover-title,
+.hide_title .inmplayer-article-item-title {
+  display: none;
+}
+.inmplayer-list-item {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  border-bottom: 1px solid #e6f1f6;
+  padding: 2px 10px;
+}
+.inmplayer-list-item:last-child {
+  border-bottom: none;
+}
+.inmplayer-list-item:hover {
+  color: #03a9f4;
+}
+.inmplayer-list-item .search-highlight {
+  background: #ffff80;
+}
+.inmplayer-list-empty {
+  color: #ccc;
+  padding: 10px 10px;
+}
+.inmplayer-active {
+  background: #def4ff;
+}
+.inmplayer-highlight {
+  padding-left: 7.5px;
+  border-left-width: 3.33333333px;
+  border-left-color: #79d4fd;
+  border-left-style: solid;
+}
+.inmplayer-panel {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background: #fff;
+  width: 350px;
+}
+.inmplayer-panel-header {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button,
+.inmplayer-panel-back-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button {
+  right: 0;
+}
+.inmplayer-panel-back-button {
+  left: 0;
+}
+.inmplayer-panel-body {
+  overflow: auto;
+}
+.inmplayer-panel-footer a,
+.inmplayer-panel-footer div {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 14px;
+}
+.inmplayer-panel-footer-branding {
+  color: #CCCCCC;
+}
+.inmplayer-panel-search {
+  background: #fafafa;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+}
+.inmplayer-panel-search input,
+.inmplayer-panel-search button {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.inmplayer-panel-search input {
+  flex-grow: 1;
+}
+.inmplayer-panel-search a {
+  color: #CCCCCC;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_bottom .inmplayer-panel {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_bottom .inmplayer-panel {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right .inmplayer-panel {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left .inmplayer-panel {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  left: 50%;
+  margin-left: -175px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel {
+  top: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  bottom: 10px;
+}
+.inmplayer-skin-legacy .inmplayer-panel {
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.inmplayer-skin-legacy .inmplayer-panel-header {
+  background: #03a9f4;
+  color: #ffffff;
+  border-radius: 5px 5px 0 0;
+}
+.inmplayer-skin-legacy .inmplayer-panel-close-button {
+  background: #03a9f4;
+  color: #ffffff;
+  background: none;
+}
+.inmplayer-skin-legacy .inmplayer-panel-body {
+  max-height: 13em;
+  border: 1px solid #e6f1f6;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer {
+  overflow: hidden;
+  background: #f7fcff;
+  border: 1px solid #e6f1f6;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer a,
+.inmplayer-skin-legacy .inmplayer-panel-footer div {
+  float: left;
+  text-decoration: none;
+  color: #7690a2;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer-branding {
+  float: right !important;
+}
+.inmplayer-skin-sidebar.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_bottom .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left .inmplayer-panel {
+  right: auto;
+  left: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel {
+  border-radius: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-body {
+  border: 1px solid #e6f1f6;
+  border-width: 1px 0;
+  background: #fafafa;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-header {
+  text-align: center;
+  border: 1px solid #e6f1f6;
+  border-width: 0 0 1px 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-footer {
+  text-align: center;
+}
+@media (max-width: 400px) {
+  .inmplayer-skin-sidebar .inmplayer-panel {
+    left: 0;
+    right: 0;
+  }
+}
+.inmplayer-article-title,
+.inmplayer-article-item {
+  padding: 10px;
+}
+.inmplayer-article-title,
+.inmplayer-article-item-title {
+  font-weight: bold;
+}
+.inmplayer-article-title {
+  font-size: 21px;
+}
+.inmplayer-article-hide-title {
+  display: none;
+}
+.inmplayer-lang-direction-rtl {
+  text-align: right;
+}
+&lt;/style&gt;&lt;/head&gt;
+&lt;body oncontextmenu=&quot;return false;&quot;&gt;
+   &lt;div&gt;
+      &lt;div data-ng-include=&quot;&apos;app/layout/shell.html&apos;&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;script async=&quot;&quot; src=&quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/bundle/libs.js?v=tdn5sdlsl6fORbxsvsccCxcSu3OvBXOPeeK17gm9Wow1&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;https://mainservice-test.ibis.nl/signalr/hubs&quot;&gt;&lt;/script&gt;
+   &lt;script src=&quot;/bundle/culture.js?v=3HIjGpU0Vl2YTtk68_EXQ5a3c3P2bxrTvf3M5O7yDp41&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;/bundle/app.js?v=nYnZ8ac_TVDDwadhF5VPoEBTfF9_YIzVBayos5yg2-U1&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;/bundle/partials.js?v=B_kin2hcipK2LbxFLXBfKolKekrnsn6mfpA39k2O0_81&quot;&gt;&lt;/script&gt;
+   &lt;script&gt;
+      window.inlineManualTracking = {
+         uid: &quot;68465145-917f-4701-a2d5-4851323a32b5&quot;,
+         email: &quot;e.booij@ibis.nl&quot;,
+         username: &quot;e.booij@ibis.nl&quot;
+      }
+   &lt;/script&gt;
+   &lt;script&gt;
+      !function () {
+         var e = document.createElement(&quot;script&quot;), t = document.getElementsByTagName(&quot;script&quot;)[0];
+         e.async = 1, e.src = &quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot;, e.charset = &quot;UTF-8&quot;, t.parentNode.insertBefore(e, t)
+      }();
+   &lt;/script&gt;
+
+&lt;/body&gt;&lt;/html&gt;&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; class=&quot;k-ff k-ff47&quot;&gt;&lt;head&gt;&lt;style type=&quot;text/css&quot;&gt;[uib-typeahead-popup].dropdown-menu{display:block;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.uib-time input{width:50px;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;[uib-tooltip-popup].tooltip.top-left &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom &amp;gt; .tooltip-arrow,[uib-popover-popup].popover.top-left &amp;gt; .arrow,[uib-popover-popup].popover.top-right &amp;gt; .arrow,[uib-popover-popup].popover.bottom-left &amp;gt; .arrow,[uib-popover-popup].popover.bottom-right &amp;gt; .arrow,[uib-popover-popup].popover.left-top &amp;gt; .arrow,[uib-popover-popup].popover.left-bottom &amp;gt; .arrow,[uib-popover-popup].popover.right-top &amp;gt; .arrow,[uib-popover-popup].popover.right-bottom &amp;gt; .arrow,[uib-popover-html-popup].popover.top-left &amp;gt; .arrow,[uib-popover-html-popup].popover.top-right &amp;gt; .arrow,[uib-popover-html-popup].popover.bottom-left &amp;gt; .arrow,[uib-popover-html-popup].popover.bottom-right &amp;gt; .arrow,[uib-popover-html-popup].popover.left-top &amp;gt; .arrow,[uib-popover-html-popup].popover.left-bottom &amp;gt; .arrow,[uib-popover-html-popup].popover.right-top &amp;gt; .arrow,[uib-popover-html-popup].popover.right-bottom &amp;gt; .arrow,[uib-popover-template-popup].popover.top-left &amp;gt; .arrow,[uib-popover-template-popup].popover.top-right &amp;gt; .arrow,[uib-popover-template-popup].popover.bottom-left &amp;gt; .arrow,[uib-popover-template-popup].popover.bottom-right &amp;gt; .arrow,[uib-popover-template-popup].popover.left-top &amp;gt; .arrow,[uib-popover-template-popup].popover.left-bottom &amp;gt; .arrow,[uib-popover-template-popup].popover.right-top &amp;gt; .arrow,[uib-popover-template-popup].popover.right-bottom &amp;gt; .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}.uib-left,.uib-right{width:100%}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;@charset &quot;UTF-8&quot;;[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}&lt;/style&gt;
+   &lt;base href=&quot;https://main-test.ibis.nl/&quot; /&gt;
+   &lt;meta charset=&quot;utf-8&quot; /&gt;
+   &lt;meta content=&quot;IE=edge, chrome=1&quot; http-equiv=&quot;X-UA-Compatible&quot; /&gt;
+   &lt;meta content=&quot;width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no&quot; name=&quot;viewport&quot; /&gt;
+   &lt;title data-ng-bind=&quot;title&quot; class=&quot;ng-binding&quot;&gt;IBIS-MAIN:  Projects&lt;/title&gt;
+   &lt;style&gt;
+      /* This helps the ng-show/ng-hide animations start at the right place. */
+      /* Since Angular has this but needs to load, this gives us the class early. */
+      .ng-hide {
+         display: none !important;
+      }
+   &lt;/style&gt;
+
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/ol3/css/ol.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-bootstrap/css/ibis.bootstrap.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-font/css/font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-main-font/css/ibis-main-font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ibis/ibis-font/specialfont.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.common.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.ibis.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.dataviz.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/font-awesome/css/font-awesome.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/toastr/toastr.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/handsontable/dist/handsontable.full.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ReportViewer/styles/telerikReportViewer.css&quot; /&gt;
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/pikaday/css/pikaday.css&quot; /&gt;
+
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/bundle/styles.css?v=oeZ5vDcLfJgKv0LtM9ekWOb2vcwvZBTVzvcMB4L8Tj81&quot; /&gt;
+
+
+   &lt;link href=&quot;favicon.png&quot; rel=&quot;shortcut icon&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;html {
+  position: relative;
+  min-height: 100%;
+}
+.fczbkk-popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fczbkk-popover-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 1em;
+  width: 300px;
+  box-sizing: border-box;
+}
+.fczbkk-popover-scroll_message {
+  display: none;
+}
+.fczbkk-popover-pointer-shape {
+  fill: #fff;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+.fczbkk-popover-pointer-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.fczbkk-popover-orphan {
+  position: fixed;
+}
+.fczbkk-popover-orphan .fczbkk-popover-static_pointer .fczbkk-popover-pointer-holder {
+  display: none;
+}
+.fczbkk-popover-static_pointer {
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent;
+  width: 0;
+  height: 0;
+}
+.fczbkk-popover-supports_svg .fczbkk-popover-static_pointer {
+  display: none;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer {
+  right: -10px;
+  border-left-color: #ccc;
+  border-right-width: 0;
+}
+.fczbkk-popover-left .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  left: -10px;
+  border-right-color: #ccc;
+  border-left-width: 0;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-left .fczbkk-popover-static_pointer {
+  top: 50%;
+  margin-top: -5px;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer {
+  top: -10px;
+  border-bottom-color: #ccc;
+  border-top-width: 0;
+}
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  bottom: -10px;
+  border-top-color: #ccc;
+  border-bottom-width: 0;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer {
+  left: 50%;
+  margin-left: -5px;
+}
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer {
+  top: 0;
+}
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  bottom: 0;
+}
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer {
+  right: 0;
+}
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  left: 0;
+}
+&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.inmplayer_tpl_step_fullscreen {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.inmplayer_tpl_step_left_side,
+.inmplayer_tpl_step_right_side {
+  position: fixed !important;
+  top: 0 !important;
+  height: 100vh;
+  border-radius: 0 !important;
+}
+.inmplayer_tpl_step_left_side {
+  left: 0 !important;
+  right: auto !important;
+}
+.inmplayer_tpl_step_right_side {
+  left: auto !important;
+  right: 0 !important;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-content {
+  padding: 0;
+}
+.inmplayer_tpl_step_top_image .inmplayer-template-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-template-content {
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-buttons,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-buttons {
+  padding: 0 20px 10px 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header {
+  background-color: #f0f0f0;
+  min-height: 40px;
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header img {
+  padding-right: 10px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header h1 {
+  font-size: 18px;
+  margin: 0;
+  line-height: 40px;
+}
+.inmplayer-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #0286c2;
+  border-radius: 5px;
+  text-align: center;
+}
+.inmplayer-general {
+  font-size: 14px;
+}
+.inmplayer-launcher {
+  box-sizing: content-box;
+  width: 20px;
+  line-height: 20px;
+  background: #c00;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  cursor: hand;
+}
+.inmplayer-trigger {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  font-size: 18px;
+  line-height: 36px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger,
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  width: 140px;
+  text-align: center;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger {
+  left: 50%;
+  margin-left: -70px;
+}
+.inmplayer-position-bottom .inmplayer-trigger {
+  bottom: 10px;
+}
+.inmplayer-position-top .inmplayer-trigger {
+  top: 10px;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger {
+  top: 50%;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger {
+  left: -70px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger {
+  right: -70px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.inmplayer-position-bottom_right .inmplayer-trigger {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-position-bottom_left .inmplayer-trigger {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-position-top_right .inmplayer-trigger {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-position-top_left .inmplayer-trigger {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-position-left_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-position-right_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-right_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-popover {
+  font-size: 14px;
+  line-height: 21px;
+}
+.inmplayer-popover-pointer-shape {
+  fill: #03a9f4;
+  stroke: #03a9f4;
+  stroke-width: 1px;
+}
+.inmplayer-popover-wrapper {
+  background: #fff;
+  color: #222;
+  border: 1px solid #e6f1f6;
+  border-radius: 5px;
+  padding: 0;
+  width: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.inmplayer-popover-scroll_message {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  text-align: center;
+  background: #79d4fd;
+}
+.inmplayer-popover-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+}
+.inmplayer-popover-content {
+  padding: 1em;
+}
+.inmplayer-popover-title {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.inmplayer-popover-progress {
+  line-height: 2em;
+  text-align: center;
+  z-index: 10;
+}
+.inmplayer-popover-buttons {
+  margin-top: 1em;
+  overflow: hidden;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next,
+.inmplayer-popover-button-end {
+  z-index: 20;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next {
+  float: left;
+  margin-right: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-previous,
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-next {
+  float: left;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.inmplayer-popover-button-end {
+  float: right;
+  margin-left: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-end {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.inmplayer-popover-branding {
+  display: block;
+  border-top: 1px solid #e6f1f6;
+  text-align: center;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.inmplayer-popover-branding span {
+  text-decoration: underline;
+}
+.inmplayer-firstStep .inmplayer-popover-button-previous,
+.inmplayer-lastStep .inmplayer-popover-button-next {
+  display: none;
+}
+.hide_prev .inmplayer-popover-button-previous,
+.hide_next .inmplayer-popover-button-next,
+.hide_progress .inmplayer-popover-progress,
+.hide_navigation .inmplayer-popover-button-previous,
+.hide_navigation .inmplayer-popover-button-next,
+.hide_end .inmplayer-popover-button-end,
+.hide_close .inmplayer-popover-close-button,
+.hide_controls .inmplayer-popover-button-previous,
+.hide_controls .inmplayer-popover-button-next,
+.hide_controls .inmplayer-popover-button-end,
+.hide_title .inmplayer-popover-title,
+.hide_title .inmplayer-article-item-title {
+  display: none;
+}
+.inmplayer-list-item {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  border-bottom: 1px solid #e6f1f6;
+  padding: 2px 10px;
+}
+.inmplayer-list-item:last-child {
+  border-bottom: none;
+}
+.inmplayer-list-item:hover {
+  color: #03a9f4;
+}
+.inmplayer-list-item .search-highlight {
+  background: #ffff80;
+}
+.inmplayer-list-empty {
+  color: #ccc;
+  padding: 10px 10px;
+}
+.inmplayer-active {
+  background: #def4ff;
+}
+.inmplayer-highlight {
+  padding-left: 7.5px;
+  border-left-width: 3.33333333px;
+  border-left-color: #79d4fd;
+  border-left-style: solid;
+}
+.inmplayer-panel {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background: #fff;
+  width: 350px;
+}
+.inmplayer-panel-header {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button,
+.inmplayer-panel-back-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button {
+  right: 0;
+}
+.inmplayer-panel-back-button {
+  left: 0;
+}
+.inmplayer-panel-body {
+  overflow: auto;
+}
+.inmplayer-panel-footer a,
+.inmplayer-panel-footer div {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 14px;
+}
+.inmplayer-panel-footer-branding {
+  color: #CCCCCC;
+}
+.inmplayer-panel-search {
+  background: #fafafa;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+}
+.inmplayer-panel-search input,
+.inmplayer-panel-search button {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.inmplayer-panel-search input {
+  flex-grow: 1;
+}
+.inmplayer-panel-search a {
+  color: #CCCCCC;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_bottom .inmplayer-panel {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_bottom .inmplayer-panel {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right .inmplayer-panel {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left .inmplayer-panel {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  left: 50%;
+  margin-left: -175px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel {
+  top: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  bottom: 10px;
+}
+.inmplayer-skin-legacy .inmplayer-panel {
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.inmplayer-skin-legacy .inmplayer-panel-header {
+  background: #03a9f4;
+  color: #ffffff;
+  border-radius: 5px 5px 0 0;
+}
+.inmplayer-skin-legacy .inmplayer-panel-close-button {
+  background: #03a9f4;
+  color: #ffffff;
+  background: none;
+}
+.inmplayer-skin-legacy .inmplayer-panel-body {
+  max-height: 13em;
+  border: 1px solid #e6f1f6;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer {
+  overflow: hidden;
+  background: #f7fcff;
+  border: 1px solid #e6f1f6;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer a,
+.inmplayer-skin-legacy .inmplayer-panel-footer div {
+  float: left;
+  text-decoration: none;
+  color: #7690a2;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer-branding {
+  float: right !important;
+}
+.inmplayer-skin-sidebar.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_bottom .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left .inmplayer-panel {
+  right: auto;
+  left: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel {
+  border-radius: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-body {
+  border: 1px solid #e6f1f6;
+  border-width: 1px 0;
+  background: #fafafa;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-header {
+  text-align: center;
+  border: 1px solid #e6f1f6;
+  border-width: 0 0 1px 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-footer {
+  text-align: center;
+}
+@media (max-width: 400px) {
+  .inmplayer-skin-sidebar .inmplayer-panel {
+    left: 0;
+    right: 0;
+  }
+}
+.inmplayer-article-title,
+.inmplayer-article-item {
+  padding: 10px;
+}
+.inmplayer-article-title,
+.inmplayer-article-item-title {
+  font-weight: bold;
+}
+.inmplayer-article-title {
+  font-size: 21px;
+}
+.inmplayer-article-hide-title {
+  display: none;
+}
+.inmplayer-lang-direction-rtl {
+  text-align: right;
+}
+&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.inmplayer-popover-wrapper {  background-color: #333333;  color: #ffffff;  border-style: solid;  border-color: #c0c0c0;  border-width: 0px;  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;  }.inmplayer-button, .inmplayer-popover-button-previous, .inmplayer-popover-button-next, .inmplayer-popover-button-end {  background-color: #ffffff;  color: #333333;  border-style: solid;  border-color: #c0392b;  border-width: 0px;  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;}.inmplayer-popover-pointer-shape {  fill: #333333;  stroke: #333333;  stroke-width: 2px;}.inmplayer-launcher {  background-color: #c0392b;  color: #ffffff;  border-style: solid;  border-color: #ffffff;  border-width: 2%;  -webkit-border-radius: 50%;  -moz-border-radius: 50%;  border-radius: 50%;}.inmplayer-panel-header, .inmplayer-trigger {  background-color: #c0392b;  color: #ffffff;}.inmplayer-panel-close-button {  background-color: transparent;}.inmplayer-article-item-title {  display: none;}.inmplayer-position-left .inmplayer-trigger, .inmplayer-position-left_bottom .inmplayer-trigger, .inmplayer-position-left_top .inmplayer-trigger {left: -38px;width: 100px;}.inmplayer-position-left .inmplayer-trigger, .inmplayer-position-right .inmplayer-trigger {    top: 45%;}.inmplayer-position-right .inmplayer-trigger, .inmplayer-position-right_bottom .inmplayer-trigger, .inmplayer-position-right_top .inmplayer-trigger {    right: -40px;    width: 100px;}.inmplayer-trigger {border-radius: 0px;padding: 0px;border: 1px;right: -55pxleft: -55pxline-height: 25px;font-size: 14px;box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}.inmplayer-list-item:hover {    color: #c0392b;}.inmplayer-panel {border-radius: 0px;border: 0px;min width: none;}.inmplayer-panel-header {    line-height: 28px;    padding: 0 10px;    cursor: pointer;    cursor: hand;    display: block;    font-size: 18px;    line-height: 50px;}}.inmplayer-panel-body .inmplayer-activeborder-left-color; #333333;}.inmplayer-panel-footer-branding {display: none !important;}.inmplayer-panel-footer-branding {display: none !important;}.inmplayer-skin-legacy .inmplayer-panel-header {    background: #c0392b;    color: #fafafa;    border-radius: 0px 0px 0 0;}.inmplayer-highlight {    padding-left: 7.5px;    border-left-width: 3.33333333px;    border-left-color: #c0392b;    border-left-style: solid;}.inmplayer-skin-legacy .inmplayer-panel {    border-radius: -px;     border: 0px solid #fff; }.inmplayer-panel-footer a, .inmplayer-panel-footer div {    line-height: 28px;    padding: 0 35px;    cursor: pointer;    cursor: hand;    display: block;    font-size: 12px;}.inmplayer-skin-legacy .inmplayer-panel-footer a, .inmplayer-skin-legacy .inmplayer-panel-footer div {    float: none;    text-decoration: none;    color: #c0392b;}.inmplayer-skin-legacy .inmplayer-panel-footer {    overflow: hidden;    background: #fafafa;    border: 1px solid #e6f1f6;    border-top: none;    border-radius: 0px;}.inmplayer-panel-search a {    color: #CCCCCC;    margin-top: 3px;}.inmplayer-skin-legacy .inmplayer-panel-body {    max-height: 13em;    /* border: 1px solid #dadada; */}.inmplayer-list-item {    line-height: 28px;    /* padding: 0 10px; */    cursor: pointer;    cursor: hand;    display: block;    border-bottom: 1px solid #EAEAEA;    padding: 2px 10px;}.inmplayer-skin-sidebar .inmplayer-panel-body {    border: 1px solid #E6E6E6;    border-width: 1px 0;    background: #fafafa;}.inmplayer-skin-sidebar .inmplayer-panel-footer {    text-align: center;    background: #ffffff;}.inmplayer-panel-close-button {    line-height: 48px;    padding: 0 10px;    cursor: pointer;    cursor: hand;    display: block;    position: absolute;    top: 0;    right: 10px;    font-size: 20px;    color: white;}.inmplayer-panel-footer a, .inmplayer-panel-footer div {    line-height: 28px;    padding: 0 35px;    cursor: pointer;    cursor: hand;    display: block;    font-size: 12px;    text-decoration: none;    color: #c0392b;}.inmplayer-popover-branding { display: none !important; }&lt;/style&gt;&lt;/head&gt;
+&lt;body oncontextmenu=&quot;return false;&quot;&gt;
+   &lt;div&gt;
+      &lt;!-- ngInclude: &apos;app/layout/shell.html&apos; --&gt;&lt;div data-ng-include=&quot;&apos;app/layout/shell.html&apos;&quot; class=&quot;ng-scope&quot;&gt;&lt;div data-ng-controller=&quot;Shell as vm&quot; class=&quot;ng-scope&quot;&gt; &lt;div class=&quot;dissolve-animation&quot; data-ng-show=&quot;vm.splash.show&quot; id=&quot;splash-page&quot;&gt; &lt;div class=&quot;page-splash&quot;&gt; &lt;div class=&quot;page-splash-message&quot;&gt; &lt;img height=&quot;50&quot; src=&quot;../../Content/images/busy.gif&quot; /&gt; &lt;p class=&quot;ng-binding&quot;&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;  &lt;header class=&quot;clearfix&quot;&gt; &lt;!-- ngInclude: &apos;app/layout/topnav.html&apos; --&gt;&lt;div data-ng-include=&quot;&apos;app/layout/topnav.html&apos;&quot; class=&quot;ng-scope&quot;&gt;&lt;nav class=&quot;navbar navbar-default navbar-fixed-top ng-scope&quot;&gt; &lt;div class=&quot;navbar-header&quot;&gt; &lt;/div&gt; &lt;div id=&quot;navbar-main&quot; class=&quot;navbar&quot;&gt; &lt;ul class=&quot;nav navbar-nav&quot;&gt;  &lt;li ng-hide=&quot;vm.root.hide&quot; class=&quot;&quot;&gt; &lt;a href=&quot;https://mijn-test.ibis.nl&quot; style=&quot;margin-left: 20px; padding-left: 5px;&quot;&gt;mijn ibis&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;navbar-seperartor&quot; ng-hide=&quot;vm.root.hide&quot;&gt; &lt;a href=&quot;/&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt; &lt;/li&gt; &lt;li ng-class=&quot;vm.paths.length === 0 ? &apos;active&apos; : &apos;&apos;&quot; ng-hide=&quot;vm.root.hide&quot; class=&quot;active&quot;&gt; &lt;a href=&quot;/&quot;&gt;IBIS-MAIN&lt;/a&gt; &lt;/li&gt; &lt;!-- ngRepeat: path in vm.paths --&gt; &lt;/ul&gt; &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt; &lt;li ng-show=&quot;vm.showSwitchLabels()&quot; class=&quot;ng-hide&quot;&gt;&lt;a&gt;Instellingen&lt;/a&gt;&lt;/li&gt; &lt;li&gt; &lt;ibis-settings state=&quot;vm.state&quot; context=&quot;vm.location&quot; class=&quot;ng-isolate-scope&quot;&gt;&lt;a href=&quot;#&quot; style=&quot;&quot; ng-attr-tooltip=&quot;{{model.tooltip()}}&quot; ng-click=&quot;model.navigate()&quot; ng-show=&quot;model.showSettingsSwitch()&quot; tooltip=&quot;Bedrijfsinstellingen&quot; class=&quot;&quot;&gt; &lt;i ng-attr-style=&quot;{{model.iconStyle()}}&quot; ng-class=&quot;model.iconClass()&quot; style=&quot;&quot; class=&quot;fa fa-lg fa-cog&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;/ibis-settings&gt; &lt;/li&gt; &lt;li ng-show=&quot;vm.showSwitchLabels()&quot; class=&quot;ng-hide&quot;&gt;&lt;a&gt;Project&lt;/a&gt;&lt;/li&gt; &lt;li class=&quot;dropdown&quot; uib-dropdown=&quot;&quot;&gt; &lt;a id=&quot;themes&quot; href=&quot;#&quot; data-toggle=&quot;dropdown&quot; class=&quot;dropdown-toggle ng-binding&quot; uib-dropdown-toggle=&quot;&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;  Erwin Booij &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt; &lt;ul aria-labelledby=&quot;themes&quot; class=&quot;dropdown-menu&quot;&gt; &lt;li&gt;&lt;a href=&quot;#&quot; ng-click=&quot;vm.signOut()&quot;&gt;&lt;i class=&quot;fa fa-sign-out fa-fw&quot;&gt;&lt;/i&gt;Uitloggen&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li id=&quot;inlinemanuel-help&quot;&gt;&lt;a href=&quot;javascript:inline_manual_player.showPanel(); void 0&quot;&gt;&lt;i class=&quot;fa fa-question-circle&quot;&gt;  &lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;/nav&gt; &lt;/div&gt; &lt;/header&gt; &lt;section class=&quot;content&quot; id=&quot;content&quot;&gt; &lt;!-- uiView:  --&gt;&lt;div data-ui-view=&quot;&quot; class=&quot;ng-scope&quot;&gt;&lt;section class=&quot;main ng-scope&quot;&gt; &lt;div class=&quot;nosidebar-content&quot;&gt; &lt;!-- Header and toolbar --&gt; &lt;div class=&quot;page-header&quot;&gt; &lt;!-- Toolbar --&gt; &lt;nav class=&quot;navbar navbar-toolbar&quot;&gt; &lt;nav class=&quot;container-fluid&quot;&gt; &lt;div ng-show=&quot;vm.activeView===&apos;grid&apos;&quot; class=&quot;ng-hide&quot;&gt; &lt;div k-options=&quot;vm.toolbarOptionsGrid&quot; kendo-toolbar=&quot;&quot; class=&quot;main7-toolbar k-toolbar k-widget k-toolbar-resizable&quot; data-role=&quot;toolbar&quot; data-uid=&quot;7549b4ed-2dad-4cd4-b067-76ec505d434c&quot; tabindex=&quot;0&quot;&gt;&lt;div class=&quot;k-overflow-anchor k-button&quot; tabindex=&quot;0&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-icon k-i-arrow-s&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 0px; visibility: visible;&quot; data-uid=&quot;17994f1d-fcee-40cb-8918-82b0bb20b5f2&quot; data-overflow=&quot;never&quot; class=&quot;k-button-group ng-scope&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; class=&quot;k-primary k-button k-button-icontext k-group-start&quot; data-uid=&quot;f84cf0ce-c882-468e-b27c-b79eb5e9dc53&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-primary fa fa-plus&quot;&gt;&lt;/span&gt;Nieuw project&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; class=&quot;k-button k-button-icontext k-group-end&quot; data-uid=&quot;8160ecc6-a2a9-4dfe-8be0-aa1da626d414&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-upload&quot;&gt;&lt;/span&gt;Importeren&lt;/a&gt;&lt;/div&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;bf467f4f-5492-4c25-a0bf-2b0c790be8ba&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-chevron-right&quot;&gt;&lt;/span&gt;Openen&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;f6746483-147e-4eb5-8c0a-f40c7f2ba0c2&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-cog&quot;&gt;&lt;/span&gt;Instellingen&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;07fc01de-d9a6-4ed9-91e5-f035a02d66d6&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-copy&quot;&gt;&lt;/span&gt;Dupliceren&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;158ec77c-31b8-46b5-b4b9-f164106b29b6&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible; display: none;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-book&quot;&gt;&lt;/span&gt;Omzetten naar referentie&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;a07ad5ad-0a1c-410b-8053-977259523f2e&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible; display: none;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-trash&quot;&gt;&lt;/span&gt;Verwijderen&lt;/a&gt;&lt;!-- ngIf: vm.selected --&gt;&lt;div ng-show=&quot;vm.user.isApplicationAdmin&quot; class=&quot;view-buttongroep k-button-group ng-scope&quot; data-uid=&quot;49c16387-9a4e-4210-88ad-2e59b1a550db&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectoverzicht&quot; ng-click=&quot;vm.activeView=&apos;tiles&apos;&quot; class=&quot;k-button k-button-icon k-group-start&quot; data-uid=&quot;44e4e35d-2efe-49ac-a4a9-6ef8f0533b90&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-th&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectbeheer&quot; class=&quot;smallmargin active k-button k-button-icon k-group-end&quot; ng-click=&quot;vm.activeView=&apos;grid&apos;&quot; data-uid=&quot;6844b09e-e014-4d99-b9b1-538a981d020a&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-list&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;search-block ng-scope&quot; data-uid=&quot;38d6539a-fc68-4669-8930-2115eaf3c57c&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;input type=&quot;text&quot; placeholder=&quot;Zoeken&quot; class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty&quot; ng-model=&quot;vm.search.text&quot; ng-change=&quot;vm.search.search()&quot; /&gt;&lt;button class=&quot;btn btn-default clear-button  ng-hide&quot; ng-show=&quot;vm.search.text.length&amp;gt;0&quot; ng-click=&quot;vm.search.clear()&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt; &lt;/div&gt; &lt;div ng-hide=&quot;vm.activeView===&apos;grid&apos;&quot; class=&quot;&quot;&gt; &lt;div k-options=&quot;vm.toolbarOptionsTiles&quot; kendo-toolbar=&quot;&quot; class=&quot;main7-toolbar k-toolbar k-widget k-toolbar-resizable&quot; data-role=&quot;toolbar&quot; data-uid=&quot;50a0ea6d-a0a9-495d-aec3-ec49b46dd7cc&quot; tabindex=&quot;0&quot;&gt;&lt;div class=&quot;k-overflow-anchor k-button&quot; tabindex=&quot;0&quot; style=&quot;visibility: hidden; width: 1px;&quot;&gt;&lt;span class=&quot;k-icon k-i-arrow-s&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 0px; visibility: visible;&quot; data-uid=&quot;91a2326f-ceac-400b-a21a-2e675a4ffac6&quot; data-overflow=&quot;never&quot; class=&quot;k-button-group ng-scope&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; class=&quot;k-primary k-button k-button-icontext k-group-start k-group-end&quot; data-uid=&quot;f80a6872-a764-464f-97df-f2cae49fbf02&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-primary fa fa-plus&quot;&gt;&lt;/span&gt;Nieuw project&lt;/a&gt;&lt;/div&gt;&lt;div ng-show=&quot;vm.user.isApplicationAdmin&quot; class=&quot;view-buttongroep k-button-group ng-scope&quot; data-uid=&quot;7b6bbe8a-da78-4108-b00f-89d82c20c75e&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectoverzicht&quot; class=&quot;active k-button k-button-icon k-group-start&quot; ng-click=&quot;vm.activeView=&apos;tiles&apos;&quot; data-uid=&quot;a9275e32-c0fc-4497-9479-d54d4e211ca7&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-th&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectbeheer&quot; class=&quot;smallmargin k-button k-button-icon k-group-end&quot; ng-click=&quot;vm.activeView=&apos;grid&apos;&quot; data-uid=&quot;691a622e-ad51-4324-9d38-8362bd89001d&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-list&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;search-block ng-scope&quot; data-uid=&quot;2fc0842c-0aec-4d47-b520-240efc279328&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;input type=&quot;text&quot; placeholder=&quot;Zoeken&quot; class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty&quot; ng-model=&quot;vm.search.text&quot; ng-change=&quot;vm.search.search()&quot; /&gt;&lt;button class=&quot;btn btn-default clear-button  ng-hide&quot; ng-show=&quot;vm.search.text.length&amp;gt;0&quot; ng-click=&quot;vm.search.clear()&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt; &lt;/div&gt; &lt;/nav&gt; &lt;/nav&gt; &lt;/div&gt; &lt;!-- Grid view --&gt; &lt;div class=&quot;content-fixed content-fixed-0rowheader content-view ng-hide&quot; id=&quot;view-grid&quot; ng-show=&quot;vm.activeView==&apos;grid&apos;&quot;&gt;  &lt;!--k-pageable=&apos;{ &quot;pageable&quot;: false, &quot;pageSize&quot;: 25, &quot;refresh&quot;: false, &quot;pageSizes&quot;: false }&apos;--&gt; &lt;div k-columns=&quot;[ { &amp;quot;field&amp;quot;: &amp;quot;name&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Projectnaam&amp;quot;}, { &amp;quot;field&amp;quot;: &amp;quot;code&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Code&amp;quot;}, { &amp;quot;field&amp;quot;: &amp;quot;projectTypeName&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Type project&amp;quot; }, { &amp;quot;field&amp;quot;: &amp;quot;userLastAccessDate&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Laatst geopend&amp;quot;,  template: &amp;quot;# if(data.userLastAccessDate) { # #= kendo.toString(kendo.parseDate(data.userLastAccessDate), &apos;dd-MM-yyyy /  HH:mm&apos;) # # } #&amp;quot; } ]&quot; k-on-change=&quot;vm.selected = data&quot; k-sortable=&quot;true&quot; k-pageable=&quot;false&quot; k-selectable=&quot;&apos;row&apos;&quot; k-data-source=&quot;vm.dataSource&quot; id=&quot;grid&quot; kendo-grid=&quot;&quot; data-role=&quot;grid&quot; class=&quot;k-grid k-widget&quot; style=&quot;&quot;&gt; &lt;div class=&quot;k-grid-header&quot; style=&quot;padding-right: 17px;&quot;&gt;&lt;div class=&quot;k-grid-header-wrap k-auto-scrollable&quot;&gt;&lt;table role=&quot;grid&quot;&gt;&lt;colgroup&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;/colgroup&gt;&lt;thead role=&quot;rowgroup&quot;&gt;&lt;tr role=&quot;row&quot;&gt;&lt;th id=&quot;3b3886f7-2ccf-4c34-ae7d-d6e5d47b54b4&quot; data-index=&quot;0&quot; data-title=&quot;Projectnaam&quot; rowspan=&quot;1&quot; data-field=&quot;name&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Projectnaam&lt;/a&gt;&lt;/th&gt;&lt;th id=&quot;01223ff1-107d-4ed1-948f-f6d57fdaa445&quot; data-index=&quot;1&quot; data-title=&quot;Code&quot; rowspan=&quot;1&quot; data-field=&quot;code&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Code&lt;/a&gt;&lt;/th&gt;&lt;th id=&quot;253bc269-af15-4cfc-b0bd-addffb7d2844&quot; data-index=&quot;2&quot; data-title=&quot;Type project&quot; rowspan=&quot;1&quot; data-field=&quot;projectTypeName&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Type project&lt;/a&gt;&lt;/th&gt;&lt;th id=&quot;e330cd06-3be7-409d-b202-df36c30fc498&quot; data-index=&quot;3&quot; data-title=&quot;Laatst geopend&quot; rowspan=&quot;1&quot; data-field=&quot;userLastAccessDate&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Laatst geopend&lt;/a&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;k-grid-content k-auto-scrollable&quot;&gt;&lt;table role=&quot;grid&quot; data-role=&quot;selectable&quot; class=&quot;k-selectable&quot;&gt;&lt;colgroup&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;/colgroup&gt;&lt;tbody role=&quot;rowgroup&quot;&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class=&quot;k-grid-content-expander&quot; style=&quot;width: 948px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt; &lt;!-- Tiles view --&gt; &lt;div class=&quot;content-fixed content-fixed-0rowheader content-view autoscroll&quot; id=&quot;view-tiles&quot; ng-show=&quot;vm.activeView==&apos;tiles&apos;&quot;&gt;  &lt;!-- ngRepeat: project in vm.projects --&gt;  &lt;div style=&quot;background-image: url(&apos;../../Content/images/demotile.jpg&apos;); &quot; ng-show=&quot;vm.projects.length === 0&quot; ng-click=&quot;vm.copySampleProject()&quot; class=&quot;tile ng-hide&quot;&gt; &lt;div class=&quot;tile-veil&quot;&gt;&lt;/div&gt; &lt;div class=&quot;tile-container&quot;&gt; &lt;div class=&quot;tile-content&quot;&gt; &lt;h3&gt;IBIS-MAIN demo project&lt;/h3&gt; &lt;p&gt;Klik hier om ons demo project in te laden. Dit duurt maar een paar seconden&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;  &lt;/div&gt; &lt;/div&gt; &lt;/section&gt; &lt;/div&gt;  &lt;!--&lt;div ngplus-overlay ngplus-overlay-delay-in=&quot;50&quot; ngplus-overlay-delay-out=&quot;700&quot; ngplus-overlay-animation=&quot;dissolve-animation&quot;&gt; &lt;img src=&quot;../../Content/images/busy.gif&quot; height=&quot;50&quot;/&gt;  &lt;div class=&quot;page-spinner-message overlay-message&quot;&gt;{{vm.busyMessage}}&lt;/div&gt; &lt;/div&gt;--&gt; &lt;/section&gt; &lt;/div&gt;   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;script async=&quot;&quot; src=&quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/bundle/libs.js?v=tdn5sdlsl6fORbxsvsccCxcSu3OvBXOPeeK17gm9Wow1&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;https://mainservice-test.ibis.nl/signalr/hubs&quot;&gt;&lt;/script&gt;
+   &lt;script src=&quot;/bundle/culture.js?v=3HIjGpU0Vl2YTtk68_EXQ5a3c3P2bxrTvf3M5O7yDp41&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;/bundle/app.js?v=nYnZ8ac_TVDDwadhF5VPoEBTfF9_YIzVBayos5yg2-U1&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;/bundle/partials.js?v=B_kin2hcipK2LbxFLXBfKolKekrnsn6mfpA39k2O0_81&quot;&gt;&lt;/script&gt;
+   &lt;script&gt;
+      window.inlineManualTracking = {
+         uid: &quot;68465145-917f-4701-a2d5-4851323a32b5&quot;,
+         email: &quot;e.booij@ibis.nl&quot;,
+         username: &quot;e.booij@ibis.nl&quot;
+      }
+   &lt;/script&gt;
+   &lt;script&gt;
+      !function () {
+         var e = document.createElement(&quot;script&quot;), t = document.getElementsByTagName(&quot;script&quot;)[0];
+         e.async = 1, e.src = &quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot;, e.charset = &quot;UTF-8&quot;, t.parentNode.insertBefore(e, t)
+      }();
+   &lt;/script&gt;
+
+&lt;!--
+Inline Manual Player
+Easily create walkthroughs, onboarding guides, tooltips and product documentation.
+http://inlinemanual.com/
+--&gt;&lt;div class=&quot; inmplayer-general inmplayer-position-right inmplayer-lang-direction-ltr inmplayer-skin-sidebar&quot;&gt;&lt;/div&gt;&lt;ul class=&quot;k-overflow-container k-list-container k-popup k-group k-reset&quot; data-role=&quot;popup&quot; style=&quot;display: none; position: absolute;&quot; data-uid=&quot;7549b4ed-2dad-4cd4-b067-76ec505d434c&quot;&gt;&lt;li style=&quot;margin-left:0&quot; data-uid=&quot;eb99d8de-d290-41c3-9d4a-e14c0b89a591&quot; data-overflow=&quot;always&quot; class=&quot;k-item k-state-default ng-scope&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; style=&quot;margin-left:0&quot; class=&quot;k-button-icontext k-overflow-button k-button&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-cloud-upload&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Demo inladen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default k-overflow-hidden ng-scope ng-hide&quot; data-uid=&quot;bf467f4f-5492-4c25-a0bf-2b0c790be8ba&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-chevron-right&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Openen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default k-overflow-hidden ng-scope ng-hide&quot; data-uid=&quot;f6746483-147e-4eb5-8c0a-f40c7f2ba0c2&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-cog&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Instellingen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default k-overflow-hidden ng-scope ng-hide&quot; data-uid=&quot;07fc01de-d9a6-4ed9-91e5-f035a02d66d6&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-copy&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Dupliceren&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;158ec77c-31b8-46b5-b4b9-f164106b29b6&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-book&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Omzetten naar referentie&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;a07ad5ad-0a1c-410b-8053-977259523f2e&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-trash&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Verwijderen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;toolbar_seperator k-separator k-item k-state-default ng-scope&quot; data-uid=&quot;a2ad93c6-76dd-427d-a7f9-511a369f3efc&quot;&gt; &lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;be157b04-abb5-445e-861c-a3b3b2438cb9&quot; data-overflow=&quot;always&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-line-chart&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Indexeren&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;aaf06f15-eab3-4009-a4d6-abb5b2e07b99&quot; data-overflow=&quot;always&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-external-link-square&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Actualiseren&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul class=&quot;k-overflow-container k-list-container k-popup k-group k-reset&quot; data-role=&quot;popup&quot; style=&quot;display: none; position: absolute;&quot; data-uid=&quot;50a0ea6d-a0a9-495d-aec3-ec49b46dd7cc&quot;&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</system-out>
   </testcase>
-  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" time="0.001">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ✽.Given Gegeven dat ik ingelogged ben(Ibis4risk.feature:6)
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" time="0.001">
+    <error message="Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 67 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 67 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ✽.And En ik het IbisMain demo project open(Ibis_main_general.feature:8)
 </error>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="When Wanneer ik naar Ibis4Risk ga" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="And En ik het Ibis4Risk demo project open" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen" name="Then Dan zie ik het Ibis4Risk demo project" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Given Gegeven dat ik ingelogged ben" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ✽.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
-</error>
-    <system-out>
-  # 1:
-  Scenario: Als Ibis4Risk gebruiker kan ik het demo project openenen &amp;#27;[90m# Ibis4risk.feature:5&amp;#27;[0m
-    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mGegeven dat ik ingelogged ben&amp;#27;[0m                              &amp;#27;[90m# LoginSteps.Gegeven_in_ingelogged_ben()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.NullPointerException
-      	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-      	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-      	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-      	at ?.Given Gegeven dat ik ingelogged ben(Ibis4risk.feature:6)
-      &amp;#27;[0m
-    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mWanneer ik naar Ibis4Risk ga&amp;#27;[0m                                &amp;#27;[90m# Ibis4RiskSteps.Wanneer_ik_naar_ibis_main_ga()&amp;#27;[0m
-    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mEn ik het Ibis4Risk demo project open&amp;#27;[0m                        &amp;#27;[90m# Ibis4RiskSteps.En_ik_het_Ibis4Risk_demo_project_open()&amp;#27;[0m
-    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mDan zie ik het Ibis4Risk demo project&amp;#27;[0m                       &amp;#27;[90m# Ibis4RiskSteps.Dan_zie_ik_het_demo_project()&amp;#27;[0m
-@web
-Feature: Ibis Main - open the demo project
-</system-out>
-    <system-err>jul 05, 2016 8:14:30 AM Article Writer getTestUser
-SEVERE: java.io.FileNotFoundException: C:\Users\ebooij\workspace\ibis-main\testusers.csv (Het systeem kan het opgegeven bestand niet vinden)
-jul 05, 2016 8:14:30 AM Article Writer getTestUser
-WARNING: Exception while trying to close the file reader
-</system-err>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ✽.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
-</error>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="When Wanneer ik naar Ibis Main ga" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="And En ik het IbisMain demo project open" time="0.001">
-    <skipped/>
   </testcase>
   <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Then Dan zie ik het IbisMain demo project" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Given Gegeven dat ik ingelogged ben" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ✽.Given Gegeven dat ik ingelogged ben(test/Ibis_main_general.feature:6)
-</error>
-    <system-out>
-  # 1:
-  Scenario: Als Ibis Main gebruiker kan ik een demo project openenen &amp;#27;[90m# Ibis_main_general.feature:5&amp;#27;[0m
-    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mGegeven dat ik ingelogged ben&amp;#27;[0m                              &amp;#27;[90m# LoginSteps.Gegeven_in_ingelogged_ben()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.NullPointerException
-      	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-      	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-      	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-      	at ?.Given Gegeven dat ik ingelogged ben(Ibis_main_general.feature:6)
-      &amp;#27;[0m
-    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mWanneer ik naar Ibis Main ga&amp;#27;[0m                                &amp;#27;[90m# IbisMainSteps.Wanneer_ik_naar_ibis_main_ga()&amp;#27;[0m
-    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mEn ik het IbisMain demo project open&amp;#27;[0m                         &amp;#27;[90m# IbisMainSteps.En_ik_het_IbisMain_demo_project_open()&amp;#27;[0m
-    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mDan zie ik het IbisMain demo project&amp;#27;[0m                        &amp;#27;[90m# IbisMainSteps.Dan_zie_ik_het_IbisMain_demo_project()&amp;#27;[0m
-@web
-Feature: Ibis Main - open the demo project
-</system-out>
-    <system-err>jul 05, 2016 8:14:36 AM Article Writer getTestUser
-SEVERE: java.io.FileNotFoundException: C:\Users\ebooij\workspace\ibis-main\testusers.csv (Het systeem kan het opgegeven bestand niet vinden)
-jul 05, 2016 8:14:36 AM Article Writer getTestUser
-WARNING: Exception while trying to close the file reader
-</system-err>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test.java.pageobjects.LoginPage.trySignIn(LoginPage.java:68)
-	at test.java.pageobjects.LoginPage.signIn(LoginPage.java:53)
-	at test.java.step_definitions.LoginSteps.Gegeven_in_ingelogged_ben(LoginSteps.java:27)
-	at ✽.Given Gegeven dat ik ingelogged ben(test/Ibis_main_general.feature:6)
-</error>
-  </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="When Wanneer ik naar Ibis Main ga" time="0.001">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Given Gegeven dat ik ingelogged ben" time="0"/>
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="When Wanneer ik naar Ibis Main ga" time="0"/>
   <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="And En ik het IbisMain demo project open" time="0.001">
-    <skipped/>
+    <error message="Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 66 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 66 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ✽.And En ik het IbisMain demo project open(test/Ibis_main_general.feature:8)
+</error>
+    <system-out>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; class=&quot;k-ff k-ff47&quot;&gt;&lt;head&gt;&lt;style type=&quot;text/css&quot;&gt;@charset &quot;UTF-8&quot;;[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}&lt;/style&gt;
+   &lt;base href=&quot;https://main-test.ibis.nl/&quot; /&gt;
+   &lt;meta charset=&quot;utf-8&quot; /&gt;
+   &lt;meta content=&quot;IE=edge, chrome=1&quot; http-equiv=&quot;X-UA-Compatible&quot; /&gt;
+   &lt;meta content=&quot;width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no&quot; name=&quot;viewport&quot; /&gt;
+   &lt;title data-ng-bind=&quot;title&quot;&gt;&lt;/title&gt;
+   &lt;style&gt;
+      /* This helps the ng-show/ng-hide animations start at the right place. */
+      /* Since Angular has this but needs to load, this gives us the class early. */
+      .ng-hide {
+         display: none !important;
+      }
+   &lt;/style&gt;
+
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/ol3/css/ol.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-bootstrap/css/ibis.bootstrap.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-font/css/font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-main-font/css/ibis-main-font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ibis/ibis-font/specialfont.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.common.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.ibis.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.dataviz.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/font-awesome/css/font-awesome.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/toastr/toastr.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/handsontable/dist/handsontable.full.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ReportViewer/styles/telerikReportViewer.css&quot; /&gt;
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/pikaday/css/pikaday.css&quot; /&gt;
+
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/bundle/styles.css?v=oeZ5vDcLfJgKv0LtM9ekWOb2vcwvZBTVzvcMB4L8Tj81&quot; /&gt;
+
+
+   &lt;link href=&quot;favicon.png&quot; rel=&quot;shortcut icon&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;html {
+  position: relative;
+  min-height: 100%;
+}
+.fczbkk-popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fczbkk-popover-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 1em;
+  width: 300px;
+  box-sizing: border-box;
+}
+.fczbkk-popover-scroll_message {
+  display: none;
+}
+.fczbkk-popover-pointer-shape {
+  fill: #fff;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+.fczbkk-popover-pointer-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.fczbkk-popover-orphan {
+  position: fixed;
+}
+.fczbkk-popover-orphan .fczbkk-popover-static_pointer .fczbkk-popover-pointer-holder {
+  display: none;
+}
+.fczbkk-popover-static_pointer {
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent;
+  width: 0;
+  height: 0;
+}
+.fczbkk-popover-supports_svg .fczbkk-popover-static_pointer {
+  display: none;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer {
+  right: -10px;
+  border-left-color: #ccc;
+  border-right-width: 0;
+}
+.fczbkk-popover-left .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  left: -10px;
+  border-right-color: #ccc;
+  border-left-width: 0;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-left .fczbkk-popover-static_pointer {
+  top: 50%;
+  margin-top: -5px;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer {
+  top: -10px;
+  border-bottom-color: #ccc;
+  border-top-width: 0;
+}
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  bottom: -10px;
+  border-top-color: #ccc;
+  border-bottom-width: 0;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer {
+  left: 50%;
+  margin-left: -5px;
+}
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer {
+  top: 0;
+}
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  bottom: 0;
+}
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer {
+  right: 0;
+}
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  left: 0;
+}
+&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.inmplayer_tpl_step_fullscreen {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.inmplayer_tpl_step_left_side,
+.inmplayer_tpl_step_right_side {
+  position: fixed !important;
+  top: 0 !important;
+  height: 100vh;
+  border-radius: 0 !important;
+}
+.inmplayer_tpl_step_left_side {
+  left: 0 !important;
+  right: auto !important;
+}
+.inmplayer_tpl_step_right_side {
+  left: auto !important;
+  right: 0 !important;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-content {
+  padding: 0;
+}
+.inmplayer_tpl_step_top_image .inmplayer-template-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-template-content {
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-buttons,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-buttons {
+  padding: 0 20px 10px 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header {
+  background-color: #f0f0f0;
+  min-height: 40px;
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header img {
+  padding-right: 10px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header h1 {
+  font-size: 18px;
+  margin: 0;
+  line-height: 40px;
+}
+.inmplayer-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #0286c2;
+  border-radius: 5px;
+  text-align: center;
+}
+.inmplayer-general {
+  font-size: 14px;
+}
+.inmplayer-launcher {
+  box-sizing: content-box;
+  width: 20px;
+  line-height: 20px;
+  background: #c00;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  cursor: hand;
+}
+.inmplayer-trigger {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  font-size: 18px;
+  line-height: 36px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger,
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  width: 140px;
+  text-align: center;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger {
+  left: 50%;
+  margin-left: -70px;
+}
+.inmplayer-position-bottom .inmplayer-trigger {
+  bottom: 10px;
+}
+.inmplayer-position-top .inmplayer-trigger {
+  top: 10px;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger {
+  top: 50%;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger {
+  left: -70px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger {
+  right: -70px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.inmplayer-position-bottom_right .inmplayer-trigger {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-position-bottom_left .inmplayer-trigger {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-position-top_right .inmplayer-trigger {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-position-top_left .inmplayer-trigger {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-position-left_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-position-right_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-right_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-popover {
+  font-size: 14px;
+  line-height: 21px;
+}
+.inmplayer-popover-pointer-shape {
+  fill: #03a9f4;
+  stroke: #03a9f4;
+  stroke-width: 1px;
+}
+.inmplayer-popover-wrapper {
+  background: #fff;
+  color: #222;
+  border: 1px solid #e6f1f6;
+  border-radius: 5px;
+  padding: 0;
+  width: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.inmplayer-popover-scroll_message {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  text-align: center;
+  background: #79d4fd;
+}
+.inmplayer-popover-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+}
+.inmplayer-popover-content {
+  padding: 1em;
+}
+.inmplayer-popover-title {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.inmplayer-popover-progress {
+  line-height: 2em;
+  text-align: center;
+  z-index: 10;
+}
+.inmplayer-popover-buttons {
+  margin-top: 1em;
+  overflow: hidden;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next,
+.inmplayer-popover-button-end {
+  z-index: 20;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next {
+  float: left;
+  margin-right: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-previous,
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-next {
+  float: left;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.inmplayer-popover-button-end {
+  float: right;
+  margin-left: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-end {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.inmplayer-popover-branding {
+  display: block;
+  border-top: 1px solid #e6f1f6;
+  text-align: center;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.inmplayer-popover-branding span {
+  text-decoration: underline;
+}
+.inmplayer-firstStep .inmplayer-popover-button-previous,
+.inmplayer-lastStep .inmplayer-popover-button-next {
+  display: none;
+}
+.hide_prev .inmplayer-popover-button-previous,
+.hide_next .inmplayer-popover-button-next,
+.hide_progress .inmplayer-popover-progress,
+.hide_navigation .inmplayer-popover-button-previous,
+.hide_navigation .inmplayer-popover-button-next,
+.hide_end .inmplayer-popover-button-end,
+.hide_close .inmplayer-popover-close-button,
+.hide_controls .inmplayer-popover-button-previous,
+.hide_controls .inmplayer-popover-button-next,
+.hide_controls .inmplayer-popover-button-end,
+.hide_title .inmplayer-popover-title,
+.hide_title .inmplayer-article-item-title {
+  display: none;
+}
+.inmplayer-list-item {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  border-bottom: 1px solid #e6f1f6;
+  padding: 2px 10px;
+}
+.inmplayer-list-item:last-child {
+  border-bottom: none;
+}
+.inmplayer-list-item:hover {
+  color: #03a9f4;
+}
+.inmplayer-list-item .search-highlight {
+  background: #ffff80;
+}
+.inmplayer-list-empty {
+  color: #ccc;
+  padding: 10px 10px;
+}
+.inmplayer-active {
+  background: #def4ff;
+}
+.inmplayer-highlight {
+  padding-left: 7.5px;
+  border-left-width: 3.33333333px;
+  border-left-color: #79d4fd;
+  border-left-style: solid;
+}
+.inmplayer-panel {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background: #fff;
+  width: 350px;
+}
+.inmplayer-panel-header {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button,
+.inmplayer-panel-back-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button {
+  right: 0;
+}
+.inmplayer-panel-back-button {
+  left: 0;
+}
+.inmplayer-panel-body {
+  overflow: auto;
+}
+.inmplayer-panel-footer a,
+.inmplayer-panel-footer div {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 14px;
+}
+.inmplayer-panel-footer-branding {
+  color: #CCCCCC;
+}
+.inmplayer-panel-search {
+  background: #fafafa;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+}
+.inmplayer-panel-search input,
+.inmplayer-panel-search button {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.inmplayer-panel-search input {
+  flex-grow: 1;
+}
+.inmplayer-panel-search a {
+  color: #CCCCCC;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_bottom .inmplayer-panel {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_bottom .inmplayer-panel {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right .inmplayer-panel {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left .inmplayer-panel {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  left: 50%;
+  margin-left: -175px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel {
+  top: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  bottom: 10px;
+}
+.inmplayer-skin-legacy .inmplayer-panel {
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.inmplayer-skin-legacy .inmplayer-panel-header {
+  background: #03a9f4;
+  color: #ffffff;
+  border-radius: 5px 5px 0 0;
+}
+.inmplayer-skin-legacy .inmplayer-panel-close-button {
+  background: #03a9f4;
+  color: #ffffff;
+  background: none;
+}
+.inmplayer-skin-legacy .inmplayer-panel-body {
+  max-height: 13em;
+  border: 1px solid #e6f1f6;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer {
+  overflow: hidden;
+  background: #f7fcff;
+  border: 1px solid #e6f1f6;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer a,
+.inmplayer-skin-legacy .inmplayer-panel-footer div {
+  float: left;
+  text-decoration: none;
+  color: #7690a2;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer-branding {
+  float: right !important;
+}
+.inmplayer-skin-sidebar.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_bottom .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left .inmplayer-panel {
+  right: auto;
+  left: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel {
+  border-radius: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-body {
+  border: 1px solid #e6f1f6;
+  border-width: 1px 0;
+  background: #fafafa;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-header {
+  text-align: center;
+  border: 1px solid #e6f1f6;
+  border-width: 0 0 1px 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-footer {
+  text-align: center;
+}
+@media (max-width: 400px) {
+  .inmplayer-skin-sidebar .inmplayer-panel {
+    left: 0;
+    right: 0;
+  }
+}
+.inmplayer-article-title,
+.inmplayer-article-item {
+  padding: 10px;
+}
+.inmplayer-article-title,
+.inmplayer-article-item-title {
+  font-weight: bold;
+}
+.inmplayer-article-title {
+  font-size: 21px;
+}
+.inmplayer-article-hide-title {
+  display: none;
+}
+.inmplayer-lang-direction-rtl {
+  text-align: right;
+}
+&lt;/style&gt;&lt;/head&gt;
+&lt;body oncontextmenu=&quot;return false;&quot;&gt;
+   &lt;div&gt;
+      &lt;div data-ng-include=&quot;&apos;app/layout/shell.html&apos;&quot;&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;script async=&quot;&quot; src=&quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/bundle/libs.js?v=tdn5sdlsl6fORbxsvsccCxcSu3OvBXOPeeK17gm9Wow1&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;https://mainservice-test.ibis.nl/signalr/hubs&quot;&gt;&lt;/script&gt;
+   &lt;script src=&quot;/bundle/culture.js?v=3HIjGpU0Vl2YTtk68_EXQ5a3c3P2bxrTvf3M5O7yDp41&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;/bundle/app.js?v=nYnZ8ac_TVDDwadhF5VPoEBTfF9_YIzVBayos5yg2-U1&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;/bundle/partials.js?v=B_kin2hcipK2LbxFLXBfKolKekrnsn6mfpA39k2O0_81&quot;&gt;&lt;/script&gt;
+   &lt;script&gt;
+      window.inlineManualTracking = {
+         uid: &quot;68465145-917f-4701-a2d5-4851323a32b5&quot;,
+         email: &quot;e.booij@ibis.nl&quot;,
+         username: &quot;e.booij@ibis.nl&quot;
+      }
+   &lt;/script&gt;
+   &lt;script&gt;
+      !function () {
+         var e = document.createElement(&quot;script&quot;), t = document.getElementsByTagName(&quot;script&quot;)[0];
+         e.async = 1, e.src = &quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot;, e.charset = &quot;UTF-8&quot;, t.parentNode.insertBefore(e, t)
+      }();
+   &lt;/script&gt;
+
+&lt;/body&gt;&lt;/html&gt;&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; class=&quot;k-ff k-ff47&quot;&gt;&lt;head&gt;&lt;style type=&quot;text/css&quot;&gt;[uib-typeahead-popup].dropdown-menu{display:block;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.uib-time input{width:50px;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;[uib-tooltip-popup].tooltip.top-left &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top &amp;gt; .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top &amp;gt; .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top &amp;gt; .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom &amp;gt; .tooltip-arrow,[uib-popover-popup].popover.top-left &amp;gt; .arrow,[uib-popover-popup].popover.top-right &amp;gt; .arrow,[uib-popover-popup].popover.bottom-left &amp;gt; .arrow,[uib-popover-popup].popover.bottom-right &amp;gt; .arrow,[uib-popover-popup].popover.left-top &amp;gt; .arrow,[uib-popover-popup].popover.left-bottom &amp;gt; .arrow,[uib-popover-popup].popover.right-top &amp;gt; .arrow,[uib-popover-popup].popover.right-bottom &amp;gt; .arrow,[uib-popover-html-popup].popover.top-left &amp;gt; .arrow,[uib-popover-html-popup].popover.top-right &amp;gt; .arrow,[uib-popover-html-popup].popover.bottom-left &amp;gt; .arrow,[uib-popover-html-popup].popover.bottom-right &amp;gt; .arrow,[uib-popover-html-popup].popover.left-top &amp;gt; .arrow,[uib-popover-html-popup].popover.left-bottom &amp;gt; .arrow,[uib-popover-html-popup].popover.right-top &amp;gt; .arrow,[uib-popover-html-popup].popover.right-bottom &amp;gt; .arrow,[uib-popover-template-popup].popover.top-left &amp;gt; .arrow,[uib-popover-template-popup].popover.top-right &amp;gt; .arrow,[uib-popover-template-popup].popover.bottom-left &amp;gt; .arrow,[uib-popover-template-popup].popover.bottom-right &amp;gt; .arrow,[uib-popover-template-popup].popover.left-top &amp;gt; .arrow,[uib-popover-template-popup].popover.left-bottom &amp;gt; .arrow,[uib-popover-template-popup].popover.right-top &amp;gt; .arrow,[uib-popover-template-popup].popover.right-bottom &amp;gt; .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}.uib-left,.uib-right{width:100%}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll;}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;@charset &quot;UTF-8&quot;;[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}&lt;/style&gt;
+   &lt;base href=&quot;https://main-test.ibis.nl/&quot; /&gt;
+   &lt;meta charset=&quot;utf-8&quot; /&gt;
+   &lt;meta content=&quot;IE=edge, chrome=1&quot; http-equiv=&quot;X-UA-Compatible&quot; /&gt;
+   &lt;meta content=&quot;width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no&quot; name=&quot;viewport&quot; /&gt;
+   &lt;title data-ng-bind=&quot;title&quot; class=&quot;ng-binding&quot;&gt;IBIS-MAIN:  Projects&lt;/title&gt;
+   &lt;style&gt;
+      /* This helps the ng-show/ng-hide animations start at the right place. */
+      /* Since Angular has this but needs to load, this gives us the class early. */
+      .ng-hide {
+         display: none !important;
+      }
+   &lt;/style&gt;
+
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/ol3/css/ol.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-bootstrap/css/ibis.bootstrap.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-font/css/font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-main-font/css/ibis-main-font.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ibis/ibis-font/specialfont.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.common.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.ibis.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/ibis/ibis-kendo/css/web/kendo.dataviz.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/font-awesome/css/font-awesome.min.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/toastr/toastr.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/handsontable/dist/handsontable.full.css&quot; /&gt;
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/Content/ReportViewer/styles/telerikReportViewer.css&quot; /&gt;
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;Content/bower/pikaday/css/pikaday.css&quot; /&gt;
+
+   
+   &lt;link rel=&quot;stylesheet&quot; href=&quot;/bundle/styles.css?v=oeZ5vDcLfJgKv0LtM9ekWOb2vcwvZBTVzvcMB4L8Tj81&quot; /&gt;
+
+
+   &lt;link href=&quot;favicon.png&quot; rel=&quot;shortcut icon&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;html {
+  position: relative;
+  min-height: 100%;
+}
+.fczbkk-popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fczbkk-popover-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 1em;
+  width: 300px;
+  box-sizing: border-box;
+}
+.fczbkk-popover-scroll_message {
+  display: none;
+}
+.fczbkk-popover-pointer-shape {
+  fill: #fff;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+.fczbkk-popover-pointer-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.fczbkk-popover-orphan {
+  position: fixed;
+}
+.fczbkk-popover-orphan .fczbkk-popover-static_pointer .fczbkk-popover-pointer-holder {
+  display: none;
+}
+.fczbkk-popover-static_pointer {
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent;
+  width: 0;
+  height: 0;
+}
+.fczbkk-popover-supports_svg .fczbkk-popover-static_pointer {
+  display: none;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer {
+  right: -10px;
+  border-left-color: #ccc;
+  border-right-width: 0;
+}
+.fczbkk-popover-left .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  left: -10px;
+  border-right-color: #ccc;
+  border-left-width: 0;
+}
+.fczbkk-popover-right .fczbkk-popover-static_pointer,
+.fczbkk-popover-left .fczbkk-popover-static_pointer {
+  top: 50%;
+  margin-top: -5px;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer {
+  top: -10px;
+  border-bottom-color: #ccc;
+  border-top-width: 0;
+}
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  bottom: -10px;
+  border-top-color: #ccc;
+  border-bottom-width: 0;
+}
+.fczbkk-popover-top .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottom .fczbkk-popover-static_pointer {
+  left: 50%;
+  margin-left: -5px;
+}
+.fczbkk-popover-rightTop .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftTop .fczbkk-popover-static_pointer {
+  top: 0;
+}
+.fczbkk-popover-rightBottom .fczbkk-popover-static_pointer,
+.fczbkk-popover-leftBottom .fczbkk-popover-static_pointer {
+  bottom: 0;
+}
+.fczbkk-popover-topRight .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomRight .fczbkk-popover-static_pointer {
+  right: 0;
+}
+.fczbkk-popover-topLeft .fczbkk-popover-static_pointer,
+.fczbkk-popover-bottomLeft .fczbkk-popover-static_pointer {
+  left: 0;
+}
+&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.inmplayer_tpl_step_fullscreen {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.inmplayer_tpl_step_left_side,
+.inmplayer_tpl_step_right_side {
+  position: fixed !important;
+  top: 0 !important;
+  height: 100vh;
+  border-radius: 0 !important;
+}
+.inmplayer_tpl_step_left_side {
+  left: 0 !important;
+  right: auto !important;
+}
+.inmplayer_tpl_step_right_side {
+  left: auto !important;
+  right: 0 !important;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-content {
+  padding: 0;
+}
+.inmplayer_tpl_step_top_image .inmplayer-template-content,
+.inmplayer_tpl_step_top_image_text .inmplayer-template-content {
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image .inmplayer-popover-buttons,
+.inmplayer_tpl_step_top_image_text .inmplayer-popover-buttons {
+  padding: 0 20px 10px 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header {
+  background-color: #f0f0f0;
+  min-height: 40px;
+  padding: 20px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header img {
+  padding-right: 10px;
+}
+.inmplayer_tpl_step_top_image_text .inmplayer-template-header h1 {
+  font-size: 18px;
+  margin: 0;
+  line-height: 40px;
+}
+.inmplayer-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #0286c2;
+  border-radius: 5px;
+  text-align: center;
+}
+.inmplayer-general {
+  font-size: 14px;
+}
+.inmplayer-launcher {
+  box-sizing: content-box;
+  width: 20px;
+  line-height: 20px;
+  background: #c00;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  cursor: hand;
+}
+.inmplayer-trigger {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  background: #03a9f4;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  font-size: 18px;
+  line-height: 36px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger,
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  width: 140px;
+  text-align: center;
+}
+.inmplayer-position-bottom .inmplayer-trigger,
+.inmplayer-position-top .inmplayer-trigger {
+  left: 50%;
+  margin-left: -70px;
+}
+.inmplayer-position-bottom .inmplayer-trigger {
+  bottom: 10px;
+}
+.inmplayer-position-top .inmplayer-trigger {
+  top: 10px;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-right .inmplayer-trigger {
+  top: 50%;
+}
+.inmplayer-position-left .inmplayer-trigger,
+.inmplayer-position-left_bottom .inmplayer-trigger,
+.inmplayer-position-left_top .inmplayer-trigger {
+  left: -70px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.inmplayer-position-right .inmplayer-trigger,
+.inmplayer-position-right_bottom .inmplayer-trigger,
+.inmplayer-position-right_top .inmplayer-trigger {
+  right: -70px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.inmplayer-position-bottom_right .inmplayer-trigger {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-position-bottom_left .inmplayer-trigger {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-position-top_right .inmplayer-trigger {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-position-top_left .inmplayer-trigger {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-position-left_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-left_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-position-right_top .inmplayer-trigger {
+  top: 80px;
+}
+.inmplayer-position-right_bottom .inmplayer-trigger {
+  bottom: 80px;
+}
+.inmplayer-popover {
+  font-size: 14px;
+  line-height: 21px;
+}
+.inmplayer-popover-pointer-shape {
+  fill: #03a9f4;
+  stroke: #03a9f4;
+  stroke-width: 1px;
+}
+.inmplayer-popover-wrapper {
+  background: #fff;
+  color: #222;
+  border: 1px solid #e6f1f6;
+  border-radius: 5px;
+  padding: 0;
+  width: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.inmplayer-popover-scroll_message {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  text-align: center;
+  background: #79d4fd;
+}
+.inmplayer-popover-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+}
+.inmplayer-popover-content {
+  padding: 1em;
+}
+.inmplayer-popover-title {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.inmplayer-popover-progress {
+  line-height: 2em;
+  text-align: center;
+  z-index: 10;
+}
+.inmplayer-popover-buttons {
+  margin-top: 1em;
+  overflow: hidden;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next,
+.inmplayer-popover-button-end {
+  z-index: 20;
+}
+.inmplayer-popover-button-previous,
+.inmplayer-popover-button-next {
+  float: left;
+  margin-right: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-previous,
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-next {
+  float: left;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.inmplayer-popover-button-end {
+  float: right;
+  margin-left: 10px;
+}
+.inmplayer-lang-direction-rtl .inmplayer-popover-button-end {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.inmplayer-popover-branding {
+  display: block;
+  border-top: 1px solid #e6f1f6;
+  text-align: center;
+  color: #ccc;
+  text-decoration: none;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.inmplayer-popover-branding span {
+  text-decoration: underline;
+}
+.inmplayer-firstStep .inmplayer-popover-button-previous,
+.inmplayer-lastStep .inmplayer-popover-button-next {
+  display: none;
+}
+.hide_prev .inmplayer-popover-button-previous,
+.hide_next .inmplayer-popover-button-next,
+.hide_progress .inmplayer-popover-progress,
+.hide_navigation .inmplayer-popover-button-previous,
+.hide_navigation .inmplayer-popover-button-next,
+.hide_end .inmplayer-popover-button-end,
+.hide_close .inmplayer-popover-close-button,
+.hide_controls .inmplayer-popover-button-previous,
+.hide_controls .inmplayer-popover-button-next,
+.hide_controls .inmplayer-popover-button-end,
+.hide_title .inmplayer-popover-title,
+.hide_title .inmplayer-article-item-title {
+  display: none;
+}
+.inmplayer-list-item {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  border-bottom: 1px solid #e6f1f6;
+  padding: 2px 10px;
+}
+.inmplayer-list-item:last-child {
+  border-bottom: none;
+}
+.inmplayer-list-item:hover {
+  color: #03a9f4;
+}
+.inmplayer-list-item .search-highlight {
+  background: #ffff80;
+}
+.inmplayer-list-empty {
+  color: #ccc;
+  padding: 10px 10px;
+}
+.inmplayer-active {
+  background: #def4ff;
+}
+.inmplayer-highlight {
+  padding-left: 7.5px;
+  border-left-width: 3.33333333px;
+  border-left-color: #79d4fd;
+  border-left-style: solid;
+}
+.inmplayer-panel {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background: #fff;
+  width: 350px;
+}
+.inmplayer-panel-header {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button,
+.inmplayer-panel-back-button {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  position: absolute;
+  top: 0;
+  font-size: 18px;
+  line-height: 36px;
+}
+.inmplayer-panel-close-button {
+  right: 0;
+}
+.inmplayer-panel-back-button {
+  left: 0;
+}
+.inmplayer-panel-body {
+  overflow: auto;
+}
+.inmplayer-panel-footer a,
+.inmplayer-panel-footer div {
+  line-height: 28px;
+  padding: 0 10px;
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+  font-size: 14px;
+}
+.inmplayer-panel-footer-branding {
+  color: #CCCCCC;
+}
+.inmplayer-panel-search {
+  background: #fafafa;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+}
+.inmplayer-panel-search input,
+.inmplayer-panel-search button {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.inmplayer-panel-search input {
+  flex-grow: 1;
+}
+.inmplayer-panel-search a {
+  color: #CCCCCC;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_bottom .inmplayer-panel {
+  bottom: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_bottom .inmplayer-panel {
+  bottom: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_right .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-right .inmplayer-panel {
+  top: 10px;
+  right: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-left .inmplayer-panel {
+  top: 10px;
+  left: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel,
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  left: 50%;
+  margin-left: -175px;
+}
+.inmplayer-skin-legacy.inmplayer-position-top .inmplayer-panel {
+  top: 10px;
+}
+.inmplayer-skin-legacy.inmplayer-position-bottom .inmplayer-panel {
+  bottom: 10px;
+}
+.inmplayer-skin-legacy .inmplayer-panel {
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.inmplayer-skin-legacy .inmplayer-panel-header {
+  background: #03a9f4;
+  color: #ffffff;
+  border-radius: 5px 5px 0 0;
+}
+.inmplayer-skin-legacy .inmplayer-panel-close-button {
+  background: #03a9f4;
+  color: #ffffff;
+  background: none;
+}
+.inmplayer-skin-legacy .inmplayer-panel-body {
+  max-height: 13em;
+  border: 1px solid #e6f1f6;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer {
+  overflow: hidden;
+  background: #f7fcff;
+  border: 1px solid #e6f1f6;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer a,
+.inmplayer-skin-legacy .inmplayer-panel-footer div {
+  float: left;
+  text-decoration: none;
+  color: #7690a2;
+}
+.inmplayer-skin-legacy .inmplayer-panel-footer-branding {
+  float: right !important;
+}
+.inmplayer-skin-sidebar.inmplayer-position-bottom_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_bottom .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-top_left .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left_top .inmplayer-panel,
+.inmplayer-skin-sidebar.inmplayer-position-left .inmplayer-panel {
+  right: auto;
+  left: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel {
+  border-radius: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-body {
+  border: 1px solid #e6f1f6;
+  border-width: 1px 0;
+  background: #fafafa;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-header {
+  text-align: center;
+  border: 1px solid #e6f1f6;
+  border-width: 0 0 1px 0;
+}
+.inmplayer-skin-sidebar .inmplayer-panel-footer {
+  text-align: center;
+}
+@media (max-width: 400px) {
+  .inmplayer-skin-sidebar .inmplayer-panel {
+    left: 0;
+    right: 0;
+  }
+}
+.inmplayer-article-title,
+.inmplayer-article-item {
+  padding: 10px;
+}
+.inmplayer-article-title,
+.inmplayer-article-item-title {
+  font-weight: bold;
+}
+.inmplayer-article-title {
+  font-size: 21px;
+}
+.inmplayer-article-hide-title {
+  display: none;
+}
+.inmplayer-lang-direction-rtl {
+  text-align: right;
+}
+&lt;/style&gt;&lt;style type=&quot;text/css&quot;&gt;.inmplayer-popover-wrapper {  background-color: #333333;  color: #ffffff;  border-style: solid;  border-color: #c0c0c0;  border-width: 0px;  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;  }.inmplayer-button, .inmplayer-popover-button-previous, .inmplayer-popover-button-next, .inmplayer-popover-button-end {  background-color: #ffffff;  color: #333333;  border-style: solid;  border-color: #c0392b;  border-width: 0px;  -webkit-border-radius: 0px;  -moz-border-radius: 0px;  border-radius: 0px;}.inmplayer-popover-pointer-shape {  fill: #333333;  stroke: #333333;  stroke-width: 2px;}.inmplayer-launcher {  background-color: #c0392b;  color: #ffffff;  border-style: solid;  border-color: #ffffff;  border-width: 2%;  -webkit-border-radius: 50%;  -moz-border-radius: 50%;  border-radius: 50%;}.inmplayer-panel-header, .inmplayer-trigger {  background-color: #c0392b;  color: #ffffff;}.inmplayer-panel-close-button {  background-color: transparent;}.inmplayer-article-item-title {  display: none;}.inmplayer-position-left .inmplayer-trigger, .inmplayer-position-left_bottom .inmplayer-trigger, .inmplayer-position-left_top .inmplayer-trigger {left: -38px;width: 100px;}.inmplayer-position-left .inmplayer-trigger, .inmplayer-position-right .inmplayer-trigger {    top: 45%;}.inmplayer-position-right .inmplayer-trigger, .inmplayer-position-right_bottom .inmplayer-trigger, .inmplayer-position-right_top .inmplayer-trigger {    right: -40px;    width: 100px;}.inmplayer-trigger {border-radius: 0px;padding: 0px;border: 1px;right: -55pxleft: -55pxline-height: 25px;font-size: 14px;box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}.inmplayer-list-item:hover {    color: #c0392b;}.inmplayer-panel {border-radius: 0px;border: 0px;min width: none;}.inmplayer-panel-header {    line-height: 28px;    padding: 0 10px;    cursor: pointer;    cursor: hand;    display: block;    font-size: 18px;    line-height: 50px;}}.inmplayer-panel-body .inmplayer-activeborder-left-color; #333333;}.inmplayer-panel-footer-branding {display: none !important;}.inmplayer-panel-footer-branding {display: none !important;}.inmplayer-skin-legacy .inmplayer-panel-header {    background: #c0392b;    color: #fafafa;    border-radius: 0px 0px 0 0;}.inmplayer-highlight {    padding-left: 7.5px;    border-left-width: 3.33333333px;    border-left-color: #c0392b;    border-left-style: solid;}.inmplayer-skin-legacy .inmplayer-panel {    border-radius: -px;     border: 0px solid #fff; }.inmplayer-panel-footer a, .inmplayer-panel-footer div {    line-height: 28px;    padding: 0 35px;    cursor: pointer;    cursor: hand;    display: block;    font-size: 12px;}.inmplayer-skin-legacy .inmplayer-panel-footer a, .inmplayer-skin-legacy .inmplayer-panel-footer div {    float: none;    text-decoration: none;    color: #c0392b;}.inmplayer-skin-legacy .inmplayer-panel-footer {    overflow: hidden;    background: #fafafa;    border: 1px solid #e6f1f6;    border-top: none;    border-radius: 0px;}.inmplayer-panel-search a {    color: #CCCCCC;    margin-top: 3px;}.inmplayer-skin-legacy .inmplayer-panel-body {    max-height: 13em;    /* border: 1px solid #dadada; */}.inmplayer-list-item {    line-height: 28px;    /* padding: 0 10px; */    cursor: pointer;    cursor: hand;    display: block;    border-bottom: 1px solid #EAEAEA;    padding: 2px 10px;}.inmplayer-skin-sidebar .inmplayer-panel-body {    border: 1px solid #E6E6E6;    border-width: 1px 0;    background: #fafafa;}.inmplayer-skin-sidebar .inmplayer-panel-footer {    text-align: center;    background: #ffffff;}.inmplayer-panel-close-button {    line-height: 48px;    padding: 0 10px;    cursor: pointer;    cursor: hand;    display: block;    position: absolute;    top: 0;    right: 10px;    font-size: 20px;    color: white;}.inmplayer-panel-footer a, .inmplayer-panel-footer div {    line-height: 28px;    padding: 0 35px;    cursor: pointer;    cursor: hand;    display: block;    font-size: 12px;    text-decoration: none;    color: #c0392b;}.inmplayer-popover-branding { display: none !important; }&lt;/style&gt;&lt;/head&gt;
+&lt;body oncontextmenu=&quot;return false;&quot;&gt;
+   &lt;div&gt;
+      &lt;!-- ngInclude: &apos;app/layout/shell.html&apos; --&gt;&lt;div data-ng-include=&quot;&apos;app/layout/shell.html&apos;&quot; class=&quot;ng-scope&quot;&gt;&lt;div data-ng-controller=&quot;Shell as vm&quot; class=&quot;ng-scope&quot;&gt; &lt;div class=&quot;dissolve-animation&quot; data-ng-show=&quot;vm.splash.show&quot; id=&quot;splash-page&quot;&gt; &lt;div class=&quot;page-splash&quot;&gt; &lt;div class=&quot;page-splash-message&quot;&gt; &lt;img height=&quot;50&quot; src=&quot;../../Content/images/busy.gif&quot; /&gt; &lt;p class=&quot;ng-binding&quot;&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;  &lt;header class=&quot;clearfix&quot;&gt; &lt;!-- ngInclude: &apos;app/layout/topnav.html&apos; --&gt;&lt;div data-ng-include=&quot;&apos;app/layout/topnav.html&apos;&quot; class=&quot;ng-scope&quot;&gt;&lt;nav class=&quot;navbar navbar-default navbar-fixed-top ng-scope&quot;&gt; &lt;div class=&quot;navbar-header&quot;&gt; &lt;/div&gt; &lt;div id=&quot;navbar-main&quot; class=&quot;navbar&quot;&gt; &lt;ul class=&quot;nav navbar-nav&quot;&gt;  &lt;li ng-hide=&quot;vm.root.hide&quot; class=&quot;&quot;&gt; &lt;a href=&quot;https://mijn-test.ibis.nl&quot; style=&quot;margin-left: 20px; padding-left: 5px;&quot;&gt;mijn ibis&lt;/a&gt; &lt;/li&gt; &lt;li class=&quot;navbar-seperartor&quot; ng-hide=&quot;vm.root.hide&quot;&gt; &lt;a href=&quot;/&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt; &lt;/li&gt; &lt;li ng-class=&quot;vm.paths.length === 0 ? &apos;active&apos; : &apos;&apos;&quot; ng-hide=&quot;vm.root.hide&quot; class=&quot;active&quot;&gt; &lt;a href=&quot;/&quot;&gt;IBIS-MAIN&lt;/a&gt; &lt;/li&gt; &lt;!-- ngRepeat: path in vm.paths --&gt; &lt;/ul&gt; &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt; &lt;li ng-show=&quot;vm.showSwitchLabels()&quot; class=&quot;ng-hide&quot;&gt;&lt;a&gt;Instellingen&lt;/a&gt;&lt;/li&gt; &lt;li&gt; &lt;ibis-settings state=&quot;vm.state&quot; context=&quot;vm.location&quot; class=&quot;ng-isolate-scope&quot;&gt;&lt;a href=&quot;#&quot; style=&quot;&quot; ng-attr-tooltip=&quot;{{model.tooltip()}}&quot; ng-click=&quot;model.navigate()&quot; ng-show=&quot;model.showSettingsSwitch()&quot; tooltip=&quot;Bedrijfsinstellingen&quot; class=&quot;&quot;&gt; &lt;i ng-attr-style=&quot;{{model.iconStyle()}}&quot; ng-class=&quot;model.iconClass()&quot; style=&quot;&quot; class=&quot;fa fa-lg fa-cog&quot;&gt;&lt;/i&gt; &lt;/a&gt; &lt;/ibis-settings&gt; &lt;/li&gt; &lt;li ng-show=&quot;vm.showSwitchLabels()&quot; class=&quot;ng-hide&quot;&gt;&lt;a&gt;Project&lt;/a&gt;&lt;/li&gt; &lt;li class=&quot;dropdown&quot; uib-dropdown=&quot;&quot;&gt; &lt;a id=&quot;themes&quot; href=&quot;#&quot; data-toggle=&quot;dropdown&quot; class=&quot;dropdown-toggle ng-binding&quot; uib-dropdown-toggle=&quot;&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;  Erwin Booij &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt; &lt;ul aria-labelledby=&quot;themes&quot; class=&quot;dropdown-menu&quot;&gt; &lt;li&gt;&lt;a href=&quot;#&quot; ng-click=&quot;vm.signOut()&quot;&gt;&lt;i class=&quot;fa fa-sign-out fa-fw&quot;&gt;&lt;/i&gt;Uitloggen&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li id=&quot;inlinemanuel-help&quot;&gt;&lt;a href=&quot;javascript:inline_manual_player.showPanel(); void 0&quot;&gt;&lt;i class=&quot;fa fa-question-circle&quot;&gt;  &lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;/nav&gt; &lt;/div&gt; &lt;/header&gt; &lt;section class=&quot;content&quot; id=&quot;content&quot;&gt; &lt;!-- uiView:  --&gt;&lt;div data-ui-view=&quot;&quot; class=&quot;ng-scope&quot;&gt;&lt;section class=&quot;main ng-scope&quot;&gt; &lt;div class=&quot;nosidebar-content&quot;&gt; &lt;!-- Header and toolbar --&gt; &lt;div class=&quot;page-header&quot;&gt; &lt;!-- Toolbar --&gt; &lt;nav class=&quot;navbar navbar-toolbar&quot;&gt; &lt;nav class=&quot;container-fluid&quot;&gt; &lt;div ng-show=&quot;vm.activeView===&apos;grid&apos;&quot; class=&quot;ng-hide&quot;&gt; &lt;div k-options=&quot;vm.toolbarOptionsGrid&quot; kendo-toolbar=&quot;&quot; class=&quot;main7-toolbar k-toolbar k-widget k-toolbar-resizable&quot; data-role=&quot;toolbar&quot; data-uid=&quot;17a14ede-cf38-48fb-8cbb-3fd37d2f9c0f&quot; tabindex=&quot;0&quot;&gt;&lt;div class=&quot;k-overflow-anchor k-button&quot; tabindex=&quot;0&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-icon k-i-arrow-s&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 0px; visibility: visible;&quot; data-uid=&quot;e2935ae2-2c63-4240-80d5-775579cd7d4d&quot; data-overflow=&quot;never&quot; class=&quot;k-button-group ng-scope&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; class=&quot;k-primary k-button k-button-icontext k-group-start&quot; data-uid=&quot;44763e4a-95b0-48ad-ae54-ec6247f0dc82&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-primary fa fa-plus&quot;&gt;&lt;/span&gt;Nieuw project&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; class=&quot;k-button k-button-icontext k-group-end&quot; data-uid=&quot;721dc73b-9a59-4d37-92f7-51bb5b797982&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-upload&quot;&gt;&lt;/span&gt;Importeren&lt;/a&gt;&lt;/div&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;2e89d5ed-a68d-4a0d-9272-df96bee284bc&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-chevron-right&quot;&gt;&lt;/span&gt;Openen&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;6ccfbad3-8b2c-43cf-a785-a1c545111ab3&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-cog&quot;&gt;&lt;/span&gt;Instellingen&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;9569882b-1ba5-4020-b9a9-b48b8a1d08f1&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-copy&quot;&gt;&lt;/span&gt;Dupliceren&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;9718067c-87da-4e49-a5fb-8b32e5ec31a5&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible; display: none;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-book&quot;&gt;&lt;/span&gt;Omzetten naar referentie&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button k-button-icontext ng-scope ng-hide&quot; data-uid=&quot;0fbde77e-142f-4f17-bc0d-1271a4d94012&quot; data-overflow=&quot;auto&quot; style=&quot;visibility: visible; display: none;&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-trash&quot;&gt;&lt;/span&gt;Verwijderen&lt;/a&gt;&lt;!-- ngIf: vm.selected --&gt;&lt;div ng-show=&quot;vm.user.isApplicationAdmin&quot; class=&quot;view-buttongroep k-button-group ng-scope&quot; data-uid=&quot;a19f997f-9174-4123-98e3-7d515b88aa75&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectoverzicht&quot; ng-click=&quot;vm.activeView=&apos;tiles&apos;&quot; class=&quot;k-button k-button-icon k-group-start&quot; data-uid=&quot;8b32d882-92ed-410c-8afb-a5e14c10c0c3&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-th&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectbeheer&quot; class=&quot;smallmargin active k-button k-button-icon k-group-end&quot; ng-click=&quot;vm.activeView=&apos;grid&apos;&quot; data-uid=&quot;e04be9e7-3e65-4449-91c6-7edcc9dc9b35&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-list&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;search-block ng-scope&quot; data-uid=&quot;55205942-ea21-4de3-94b6-cd7dd701fc24&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;input type=&quot;text&quot; placeholder=&quot;Zoeken&quot; class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty&quot; ng-model=&quot;vm.search.text&quot; ng-change=&quot;vm.search.search()&quot; /&gt;&lt;button class=&quot;btn btn-default clear-button  ng-hide&quot; ng-show=&quot;vm.search.text.length&amp;gt;0&quot; ng-click=&quot;vm.search.clear()&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt; &lt;/div&gt; &lt;div ng-hide=&quot;vm.activeView===&apos;grid&apos;&quot; class=&quot;&quot;&gt; &lt;div k-options=&quot;vm.toolbarOptionsTiles&quot; kendo-toolbar=&quot;&quot; class=&quot;main7-toolbar k-toolbar k-widget k-toolbar-resizable&quot; data-role=&quot;toolbar&quot; data-uid=&quot;9cdd4e5f-b12f-4f2b-abb4-ac08848b3036&quot; tabindex=&quot;0&quot;&gt;&lt;div class=&quot;k-overflow-anchor k-button&quot; tabindex=&quot;0&quot; style=&quot;visibility: hidden; width: 1px;&quot;&gt;&lt;span class=&quot;k-icon k-i-arrow-s&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 0px; visibility: visible;&quot; data-uid=&quot;59745a1f-b959-4128-913e-d66195633495&quot; data-overflow=&quot;never&quot; class=&quot;k-button-group ng-scope&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; class=&quot;k-primary k-button k-button-icontext k-group-start k-group-end&quot; data-uid=&quot;ec3f32d5-c7a0-44d2-8775-ecc637d4e4f0&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-primary fa fa-plus&quot;&gt;&lt;/span&gt;Nieuw project&lt;/a&gt;&lt;/div&gt;&lt;div ng-show=&quot;vm.user.isApplicationAdmin&quot; class=&quot;view-buttongroep k-button-group ng-scope&quot; data-uid=&quot;05663c4e-0458-4214-8e30-95a6327c8afa&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectoverzicht&quot; class=&quot;active k-button k-button-icon k-group-start&quot; ng-click=&quot;vm.activeView=&apos;tiles&apos;&quot; data-uid=&quot;5f1a7849-7ece-4c03-978c-9ef58915e08b&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-th&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; uib-tooltip=&quot;Projectbeheer&quot; class=&quot;smallmargin k-button k-button-icon k-group-end&quot; ng-click=&quot;vm.activeView=&apos;grid&apos;&quot; data-uid=&quot;9142bf77-42cd-4786-9f95-1ec5c4926239&quot; data-overflow=&quot;auto&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-list&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;search-block ng-scope&quot; data-uid=&quot;4bbc9446-0007-4840-98e2-a38142e86362&quot; data-overflow=&quot;never&quot; style=&quot;visibility: visible;&quot;&gt;&lt;input type=&quot;text&quot; placeholder=&quot;Zoeken&quot; class=&quot;form-control ng-pristine ng-untouched ng-valid ng-empty&quot; ng-model=&quot;vm.search.text&quot; ng-change=&quot;vm.search.search()&quot; /&gt;&lt;button class=&quot;btn btn-default clear-button  ng-hide&quot; ng-show=&quot;vm.search.text.length&amp;gt;0&quot; ng-click=&quot;vm.search.clear()&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt; &lt;/div&gt; &lt;/nav&gt; &lt;/nav&gt; &lt;/div&gt; &lt;!-- Grid view --&gt; &lt;div class=&quot;content-fixed content-fixed-0rowheader content-view ng-hide&quot; id=&quot;view-grid&quot; ng-show=&quot;vm.activeView==&apos;grid&apos;&quot;&gt;  &lt;!--k-pageable=&apos;{ &quot;pageable&quot;: false, &quot;pageSize&quot;: 25, &quot;refresh&quot;: false, &quot;pageSizes&quot;: false }&apos;--&gt; &lt;div k-columns=&quot;[ { &amp;quot;field&amp;quot;: &amp;quot;name&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Projectnaam&amp;quot;}, { &amp;quot;field&amp;quot;: &amp;quot;code&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Code&amp;quot;}, { &amp;quot;field&amp;quot;: &amp;quot;projectTypeName&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Type project&amp;quot; }, { &amp;quot;field&amp;quot;: &amp;quot;userLastAccessDate&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;Laatst geopend&amp;quot;,  template: &amp;quot;# if(data.userLastAccessDate) { # #= kendo.toString(kendo.parseDate(data.userLastAccessDate), &apos;dd-MM-yyyy /  HH:mm&apos;) # # } #&amp;quot; } ]&quot; k-on-change=&quot;vm.selected = data&quot; k-sortable=&quot;true&quot; k-pageable=&quot;false&quot; k-selectable=&quot;&apos;row&apos;&quot; k-data-source=&quot;vm.dataSource&quot; id=&quot;grid&quot; kendo-grid=&quot;&quot; data-role=&quot;grid&quot; class=&quot;k-grid k-widget&quot; style=&quot;&quot;&gt; &lt;div class=&quot;k-grid-header&quot; style=&quot;padding-right: 17px;&quot;&gt;&lt;div class=&quot;k-grid-header-wrap k-auto-scrollable&quot;&gt;&lt;table role=&quot;grid&quot;&gt;&lt;colgroup&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;/colgroup&gt;&lt;thead role=&quot;rowgroup&quot;&gt;&lt;tr role=&quot;row&quot;&gt;&lt;th id=&quot;41a2767e-57ad-4bca-a1c9-3025208d5b44&quot; data-index=&quot;0&quot; data-title=&quot;Projectnaam&quot; rowspan=&quot;1&quot; data-field=&quot;name&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Projectnaam&lt;/a&gt;&lt;/th&gt;&lt;th id=&quot;efe46d61-b819-42cb-93e0-c1a30c5196cd&quot; data-index=&quot;1&quot; data-title=&quot;Code&quot; rowspan=&quot;1&quot; data-field=&quot;code&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Code&lt;/a&gt;&lt;/th&gt;&lt;th id=&quot;84449fee-a73b-49a4-af71-123847c5bfd2&quot; data-index=&quot;2&quot; data-title=&quot;Type project&quot; rowspan=&quot;1&quot; data-field=&quot;projectTypeName&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Type project&lt;/a&gt;&lt;/th&gt;&lt;th id=&quot;30cba1ca-2f68-4d41-b0d4-e93fbc49c512&quot; data-index=&quot;3&quot; data-title=&quot;Laatst geopend&quot; rowspan=&quot;1&quot; data-field=&quot;userLastAccessDate&quot; role=&quot;columnheader&quot; scope=&quot;col&quot; class=&quot;k-header ng-scope&quot; data-role=&quot;columnsorter&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;k-link&quot;&gt;Laatst geopend&lt;/a&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;k-grid-content k-auto-scrollable&quot;&gt;&lt;table role=&quot;grid&quot; data-role=&quot;selectable&quot; class=&quot;k-selectable&quot;&gt;&lt;colgroup&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;col /&gt;&lt;/colgroup&gt;&lt;tbody role=&quot;rowgroup&quot;&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class=&quot;k-grid-content-expander&quot; style=&quot;width: 948px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt; &lt;!-- Tiles view --&gt; &lt;div class=&quot;content-fixed content-fixed-0rowheader content-view autoscroll&quot; id=&quot;view-tiles&quot; ng-show=&quot;vm.activeView==&apos;tiles&apos;&quot;&gt;  &lt;!-- ngRepeat: project in vm.projects --&gt;  &lt;div style=&quot;background-image: url(&apos;../../Content/images/demotile.jpg&apos;); &quot; ng-show=&quot;vm.projects.length === 0&quot; ng-click=&quot;vm.copySampleProject()&quot; class=&quot;tile ng-hide&quot;&gt; &lt;div class=&quot;tile-veil&quot;&gt;&lt;/div&gt; &lt;div class=&quot;tile-container&quot;&gt; &lt;div class=&quot;tile-content&quot;&gt; &lt;h3&gt;IBIS-MAIN demo project&lt;/h3&gt; &lt;p&gt;Klik hier om ons demo project in te laden. Dit duurt maar een paar seconden&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;  &lt;/div&gt; &lt;/div&gt; &lt;/section&gt; &lt;/div&gt;  &lt;!--&lt;div ngplus-overlay ngplus-overlay-delay-in=&quot;50&quot; ngplus-overlay-delay-out=&quot;700&quot; ngplus-overlay-animation=&quot;dissolve-animation&quot;&gt; &lt;img src=&quot;../../Content/images/busy.gif&quot; height=&quot;50&quot;/&gt;  &lt;div class=&quot;page-spinner-message overlay-message&quot;&gt;{{vm.busyMessage}}&lt;/div&gt; &lt;/div&gt;--&gt; &lt;/section&gt; &lt;/div&gt;   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;script async=&quot;&quot; src=&quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/bundle/libs.js?v=tdn5sdlsl6fORbxsvsccCxcSu3OvBXOPeeK17gm9Wow1&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;https://mainservice-test.ibis.nl/signalr/hubs&quot;&gt;&lt;/script&gt;
+   &lt;script src=&quot;/bundle/culture.js?v=3HIjGpU0Vl2YTtk68_EXQ5a3c3P2bxrTvf3M5O7yDp41&quot;&gt;&lt;/script&gt;
+
+   &lt;script src=&quot;/bundle/app.js?v=nYnZ8ac_TVDDwadhF5VPoEBTfF9_YIzVBayos5yg2-U1&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;/bundle/partials.js?v=B_kin2hcipK2LbxFLXBfKolKekrnsn6mfpA39k2O0_81&quot;&gt;&lt;/script&gt;
+   &lt;script&gt;
+      window.inlineManualTracking = {
+         uid: &quot;68465145-917f-4701-a2d5-4851323a32b5&quot;,
+         email: &quot;e.booij@ibis.nl&quot;,
+         username: &quot;e.booij@ibis.nl&quot;
+      }
+   &lt;/script&gt;
+   &lt;script&gt;
+      !function () {
+         var e = document.createElement(&quot;script&quot;), t = document.getElementsByTagName(&quot;script&quot;)[0];
+         e.async = 1, e.src = &quot;https://inlinemanual.com/embed/player.1ab844aaec8792bf9886cafd73a18d3b.js&quot;, e.charset = &quot;UTF-8&quot;, t.parentNode.insertBefore(e, t)
+      }();
+   &lt;/script&gt;
+
+&lt;!--
+Inline Manual Player
+Easily create walkthroughs, onboarding guides, tooltips and product documentation.
+http://inlinemanual.com/
+--&gt;&lt;div class=&quot; inmplayer-general inmplayer-position-right inmplayer-lang-direction-ltr inmplayer-skin-sidebar&quot;&gt;&lt;/div&gt;&lt;ul class=&quot;k-overflow-container k-list-container k-popup k-group k-reset&quot; data-role=&quot;popup&quot; style=&quot;display: none; position: absolute;&quot; data-uid=&quot;17a14ede-cf38-48fb-8cbb-3fd37d2f9c0f&quot;&gt;&lt;li style=&quot;margin-left:0&quot; data-uid=&quot;30270807-4e18-4a5b-bfc8-52a8abb77af1&quot; data-overflow=&quot;always&quot; class=&quot;k-item k-state-default ng-scope&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; style=&quot;margin-left:0&quot; class=&quot;k-button-icontext k-overflow-button k-button&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-cloud-upload&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Demo inladen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default k-overflow-hidden ng-scope ng-hide&quot; data-uid=&quot;2e89d5ed-a68d-4a0d-9272-df96bee284bc&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-chevron-right&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Openen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default k-overflow-hidden ng-scope ng-hide&quot; data-uid=&quot;6ccfbad3-8b2c-43cf-a785-a1c545111ab3&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-cog&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Instellingen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default k-overflow-hidden ng-scope ng-hide&quot; data-uid=&quot;9569882b-1ba5-4020-b9a9-b48b8a1d08f1&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-copy&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Dupliceren&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;9718067c-87da-4e49-a5fb-8b32e5ec31a5&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-book&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Omzetten naar referentie&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;0fbde77e-142f-4f17-bc0d-1271a4d94012&quot; data-overflow=&quot;auto&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-trash&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Verwijderen&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;toolbar_seperator k-separator k-item k-state-default ng-scope&quot; data-uid=&quot;8d943f01-fe71-4dc2-98e8-4092ce3549e4&quot;&gt; &lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;9b4be4c5-52d4-4cb6-81b6-80fb093684d8&quot; data-overflow=&quot;always&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-line-chart&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Indexeren&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-item k-state-default ng-scope ng-hide&quot; data-uid=&quot;5a27f3d0-dc1f-4ae1-9602-2b9c3cdb051c&quot; data-overflow=&quot;always&quot;&gt;&lt;a tabindex=&quot;0&quot; href=&quot;&quot; ng-show=&quot;vm.selected&quot; class=&quot;tool-button k-button-icontext k-overflow-button k-button ng-hide&quot;&gt;&lt;span class=&quot;k-sprite btn-default fa fa-external-link-square&quot;&gt;&lt;/span&gt;&lt;span class=&quot;k-text&quot;&gt;Actualiseren&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul class=&quot;k-overflow-container k-list-container k-popup k-group k-reset&quot; data-role=&quot;popup&quot; style=&quot;display: none; position: absolute;&quot; data-uid=&quot;9cdd4e5f-b12f-4f2b-abb4-ac08848b3036&quot;&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</system-out>
   </testcase>
-  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Then Dan zie ik het IbisMain demo project" time="0.001">
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" time="0.003">
+    <error message="Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 66 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: &lt;div class=&quot;page-splash-message&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 66 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NB008038&apos;, ip: &apos;172.20.31.71&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 089a3216-e324-494e-9a0a-7696ef5327e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)
+	at test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)
+	at ✽.And En ik het IbisMain demo project open(test/Ibis_main_general.feature:8)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Als Ibis Main gebruiker kan ik een demo project openenen" name="Then Dan zie ik het IbisMain demo project" time="0.003">
     <skipped/>
   </testcase>
   <testcase classname="Scenario: Als gebruiker kan ik in en uit loggen" name="Given Gegeven ik op de login pagina ben" time="0"/>
@@ -285,5 +2886,5 @@ WARNING: Exception while trying to close the file reader
   <testcase classname="Scenario: Als gebruiker kan ik in en uit loggen" name="Then Dan zie ik de welkoms pagina" time="0"/>
   <testcase classname="Scenario: Als gebruiker kan ik in en uit loggen" name="When En ik log uit" time="0"/>
   <testcase classname="Scenario: Als gebruiker kan ik in en uit loggen" name="Then Dan zie ik de login pagina" time="0"/>
-  <testcase classname="Scenario: Als gebruiker kan ik in en uit loggen" name="Scenario: Als gebruiker kan ik in en uit loggen" time="0.001"/>
+  <testcase classname="Scenario: Als gebruiker kan ik in en uit loggen" name="Scenario: Als gebruiker kan ik in en uit loggen" time="0"/>
 </testsuite>

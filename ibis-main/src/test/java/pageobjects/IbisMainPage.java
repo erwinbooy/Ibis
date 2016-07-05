@@ -31,11 +31,9 @@ public class IbisMainPage extends AbstractPage{
 	 * The first time we also have to import the project but after that it will just be there
 	 */
 	public void openDemoProject(){
-		System.out.print(getPageHtml());
 		// First we have to wait until all projects are showing on the screen
 		waitForElementPresent(By.xpath(waiting_screen));
 		// The Demo project will always be there so this click always works
-		System.out.print(getPageHtml());
 		waitForElementIsClickable(By.xpath(link_demo_project)).click();
 	}
 
