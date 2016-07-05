@@ -51,6 +51,7 @@ public abstract class AbstractPage implements Page {
 
 	/**
 	 * This method will handle the splash screen that shows up everywhere in the application
+	 * I am not sure yet if this will work in all parts of the application but that will show in time
 	 * 
 	 */
 	public void handleWaitingScreen(){
