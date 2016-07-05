@@ -9,7 +9,6 @@ test\java\step_definitions\LoginSteps.class
 test\java\pageobjects\OverviewPage.class
 test\java\pageobjects\LoginPage.class
 test\java\helpers\PageProvider.class
-test\java\FirstTest.class
 test\java\pageobjects\Ibis4RiskPage.class
 test\java\step_definitions\IbisMainSteps.class
 test\java\pageobjects\AbstractPage.class
