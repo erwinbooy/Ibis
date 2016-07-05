@@ -1,6 +1,7 @@
 package test.java.helpers;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import test.java.pageobjects.Ibis4RiskPage;
@@ -41,7 +42,8 @@ public class PageProvider {
 	 * Also set the browser to true for the general hook
 	 */
 	public static void init() {
-		driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C:/Users/ebooij/AppData/Local/Google/Chrome/Application/chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		browser = true;
 	}
