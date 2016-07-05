@@ -55,7 +55,11 @@ public abstract class AbstractPage implements Page {
 	 */
 	public void handleWaitingScreen(){
 		// First we wait until the waiting screen is showing
-		waitForElementPresent(By.xpath(waiting_screen_showing));
+		try{
+			waitForElementPresent(By.xpath(waiting_screen_showing));
+		} catch (Exception e){
+			// The waiting screen doesn't always have to show or it very fast so we ignore this exception
+		}
 		// First we wait until the waiting screen is not showing anymore
 		waitForElementPresent(By.xpath(waiting_screen_not_showing));
 	}
