@@ -12,8 +12,6 @@ public class IbisMainPage extends AbstractPage{
 
 	// Link to the Demo Project when you are on the IbisMain start page
 	private static String link_demo_project = "//div[contains(@class,'tile')][contains(@ng-click,'vm.openProject')]";
-	// Waiting icon while building the projects on the screen
-	private static String waiting_screen = "//ul[contains(@class,'k-overflow-container')][contains(@style,'display: none')]";
 	// Text of the Demo project once you opened it
 	private static String text_demo_project = "//nav[contains(@class,'navbar')]//li[contains(@class,'active')]/a[contains(.,'Demo project woningbouw')]";
 
@@ -31,8 +29,7 @@ public class IbisMainPage extends AbstractPage{
 	 * The first time we also have to import the project but after that it will just be there
 	 */
 	public void openDemoProject(){
-		// First we have to wait until all projects are showing on the screen
-		waitForElementPresent(By.xpath(waiting_screen));
+		handleWaitingScreen();
 		// The Demo project will always be there so this click always works
 		waitForElementIsClickable(By.xpath(link_demo_project)).click();
 	}
@@ -42,6 +39,7 @@ public class IbisMainPage extends AbstractPage{
 	 * We validate this by checking the name in the navigation bar
 	 */
 	public boolean demoProjectIsShowing(){
+		handleWaitingScreen();
 		try{
 			findElementOnPage(By.xpath(text_demo_project));
 			return true;

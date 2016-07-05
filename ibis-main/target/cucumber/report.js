@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 33784,
+  "duration": 3020388351,
   "status": "passed"
 });
 formatter.scenario({
@@ -54,28 +54,28 @@ formatter.match({
   "location": "LoginSteps.Gegeven_in_ingelogged_ben()"
 });
 formatter.result({
-  "duration": 1424759820,
+  "duration": 17698239995,
   "status": "passed"
 });
 formatter.match({
   "location": "Ibis4RiskSteps.Wanneer_ik_naar_ibis_main_ga()"
 });
 formatter.result({
-  "duration": 10763616147,
+  "duration": 3942160374,
   "status": "passed"
 });
 formatter.match({
   "location": "Ibis4RiskSteps.En_ik_het_Ibis4Risk_demo_project_open()"
 });
 formatter.result({
-  "duration": 2101400777,
+  "duration": 1913186463,
   "status": "passed"
 });
 formatter.match({
   "location": "Ibis4RiskSteps.Dan_zie_ik_het_demo_project()"
 });
 formatter.result({
-  "duration": 14011192,
+  "duration": 28772059,
   "status": "passed"
 });
 formatter.uri("Ibis_main_general.feature");
@@ -93,7 +93,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 35496,
+  "duration": 40627,
   "status": "passed"
 });
 formatter.scenario({
@@ -134,29 +134,29 @@ formatter.match({
   "location": "LoginSteps.Gegeven_in_ingelogged_ben()"
 });
 formatter.result({
-  "duration": 1375976599,
+  "duration": 1341527448,
   "status": "passed"
 });
 formatter.match({
   "location": "IbisMainSteps.Wanneer_ik_naar_ibis_main_ga()"
 });
 formatter.result({
-  "duration": 2390419293,
+  "duration": 3013495014,
   "status": "passed"
 });
 formatter.match({
   "location": "IbisMainSteps.En_ik_het_IbisMain_demo_project_open()"
 });
 formatter.result({
-  "duration": 921877653,
-  "error_message": "org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: \u003cdiv class\u003d\"page-splash-message\"\u003e\u003c/div\u003e\nCommand duration or timeout: 67 milliseconds\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027NB008038\u0027, ip: \u0027172.20.31.71\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_91\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d47.0.1, platform\u003dWINDOWS, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 089a3216-e324-494e-9a0a-7696ef5327e4\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)\r\n\tat test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)\r\n\tat ✽.And En ik het IbisMain demo project open(Ibis_main_general.feature:8)\r\n",
-  "status": "failed"
+  "duration": 1932013454,
+  "status": "passed"
 });
 formatter.match({
   "location": "IbisMainSteps.Dan_zie_ik_het_IbisMain_demo_project()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2537418131,
+  "status": "passed"
 });
 formatter.uri("test/Ibis_main_general.feature");
 formatter.feature({
@@ -173,7 +173,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 47470,
+  "duration": 54312,
   "status": "passed"
 });
 formatter.scenario({
@@ -214,29 +214,29 @@ formatter.match({
   "location": "LoginSteps.Gegeven_in_ingelogged_ben()"
 });
 formatter.result({
-  "duration": 1358681033,
+  "duration": 1407187990,
   "status": "passed"
 });
 formatter.match({
   "location": "IbisMainSteps.Wanneer_ik_naar_ibis_main_ga()"
 });
 formatter.result({
-  "duration": 1998268006,
+  "duration": 2199586460,
   "status": "passed"
 });
 formatter.match({
   "location": "IbisMainSteps.En_ik_het_IbisMain_demo_project_open()"
 });
 formatter.result({
-  "duration": 786370275,
-  "error_message": "org.openqa.selenium.WebDriverException: Element is not clickable at point (195, 240). Other element would receive the click: \u003cdiv class\u003d\"page-splash-message\"\u003e\u003c/div\u003e\nCommand duration or timeout: 66 milliseconds\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027NB008038\u0027, ip: \u0027172.20.31.71\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_91\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d47.0.1, platform\u003dWINDOWS, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 089a3216-e324-494e-9a0a-7696ef5327e4\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat test.java.pageobjects.IbisMainPage.openDemoProject(IbisMainPage.java:39)\r\n\tat test.java.step_definitions.IbisMainSteps.En_ik_het_IbisMain_demo_project_open(IbisMainSteps.java:28)\r\n\tat ✽.And En ik het IbisMain demo project open(test/Ibis_main_general.feature:8)\r\n",
-  "status": "failed"
+  "duration": 1618965122,
+  "status": "passed"
 });
 formatter.match({
   "location": "IbisMainSteps.Dan_zie_ik_het_IbisMain_demo_project()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2517621651,
+  "status": "passed"
 });
 formatter.uri("test_login_en_logout.feature");
 formatter.feature({
@@ -253,7 +253,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 96650,
+  "duration": 35923,
   "status": "passed"
 });
 formatter.scenario({
@@ -299,35 +299,35 @@ formatter.match({
   "location": "LoginSteps.Wanneer_ik_de_login_pagina_open()"
 });
 formatter.result({
-  "duration": 2568854040,
+  "duration": 2666624899,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.En_ik_log_in()"
 });
 formatter.result({
-  "duration": 10202003981,
+  "duration": 10299735497,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.Dan_zie_ik_de_welkom_pagina()"
 });
 formatter.result({
-  "duration": 60119871,
+  "duration": 42577977,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.En_ik_log_uit()"
 });
 formatter.result({
-  "duration": 1061810810,
+  "duration": 1226238644,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.Dan_zie_ik_de_login_pagina()"
 });
 formatter.result({
-  "duration": 24295389,
+  "duration": 16982524,
   "status": "passed"
 });
 });

@@ -2,12 +2,14 @@ test\java\hooks\GlobalHooks$1.class
 test\java\hooks\GlobalHooks.class
 test\java\pageobjects\IbisMainPage.class
 test\java\users\User.class
+test\java\helpers\TestUser.class
 test\java\step_definitions\Ibis4RiskSteps.class
 test\java\pageobjects\Page.class
 test\java\step_definitions\LoginSteps.class
 test\java\pageobjects\OverviewPage.class
 test\java\pageobjects\LoginPage.class
 test\java\helpers\PageProvider.class
+test\java\FirstTest.class
 test\java\pageobjects\Ibis4RiskPage.class
 test\java\step_definitions\IbisMainSteps.class
 test\java\pageobjects\AbstractPage.class

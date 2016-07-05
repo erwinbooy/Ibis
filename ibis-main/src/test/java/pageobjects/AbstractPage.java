@@ -22,6 +22,10 @@ public abstract class AbstractPage implements Page {
 	public WebDriverWait wait = null;
 	public Log logger = null;
 	private String url_logout = "/Signout";
+	// Waiting icon while building the projects on the screen
+	private static String waiting_screen_not_showing = "//div[@id='splash-page'][@class='dissolve-animation ng-hide']";
+	// Waiting icon while building the projects on the screen
+	private static String waiting_screen_showing = "//div[@id='splash-page'][@class='dissolve-animation']";
 
 	/**
 	 * Constructor with WebDriver
@@ -45,6 +49,17 @@ public abstract class AbstractPage implements Page {
 		return driver.findElement(locator);
 	}
 
+	/**
+	 * This method will handle the splash screen that shows up everywhere in the application
+	 * 
+	 */
+	public void handleWaitingScreen(){
+		// First we wait until the waiting screen is showing
+		waitForElementPresent(By.xpath(waiting_screen_showing));
+		// First we wait until the waiting screen is not showing anymore
+		waitForElementPresent(By.xpath(waiting_screen_not_showing));
+	}
+	
 	/**
 	 * This method will be a safe method to get an element because it always
 	 * waits for it to be clickable
