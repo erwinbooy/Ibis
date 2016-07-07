@@ -42,6 +42,7 @@ public class PageProvider {
 	 */
 	public static void init() {
 		System.setProperty("webdriver.chrome.driver", "C:/Users/ebooij/AppData/Local/Google/Chrome/Application/chromedriver.exe");
+		System.out.println("Chrome run");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		browser = true;
