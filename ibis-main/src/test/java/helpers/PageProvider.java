@@ -42,6 +42,7 @@ public class PageProvider {
 	 */
 	public static void init() {
 		driver = new FirefoxDriver();
+		System.out.println("FireFox run");
 		driver.manage().window().maximize();
 		browser = true;
 	}
