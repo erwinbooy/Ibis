@@ -36,6 +36,7 @@ public class TestUser {
 			User myUser = null;
 			try {
 				testuser_file = running_dir + "\\testuser.csv";
+				//System.out.println("File should be at this location: " + testuser_file);
 				dbReader = new BufferedReader(new FileReader(testuser_file));
 				while ((line = dbReader.readLine()) != null) {
 					fields = line.split(",");
