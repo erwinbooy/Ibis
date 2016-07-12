@@ -38,6 +38,10 @@ public class IbisMainPage extends AbstractPage{
 		} catch (Exception e){
 			// Create the demo project if it is not there
 			waitForElementPresent(By.xpath(link_demo_project_create)).click();
+			// the project import takes long so we will wait for this
+			handleProjectImport();
+			// Try to open de Demo project
+			waitForElementPresent(By.xpath(link_demo_project)).click();
 		}
 	}
 

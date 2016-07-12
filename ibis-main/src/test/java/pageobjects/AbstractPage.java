@@ -26,6 +26,9 @@ public abstract class AbstractPage implements Page {
 	private static String waiting_screen_not_showing = "//div[@id='splash-page'][@class='dissolve-animation ng-hide']";
 	// Waiting icon while building the projects on the screen
 	private static String waiting_screen_showing = "//div[@id='splash-page'][@class='dissolve-animation']";
+	private static int T5_SECONDS = 5;
+	private static int T10_SECONDS = 10;
+	private static int T60_SECONDS = 60;
 
 	/**
 	 * Constructor with WebDriver
@@ -34,7 +37,7 @@ public abstract class AbstractPage implements Page {
 	 */
 	public AbstractPage(WebDriver driver) {
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver, 10, 1);
+		this.wait = new WebDriverWait(driver, T10_SECONDS, 1);
 		logger = LogFactory.getLog(this.getClass());
 	}
 	
@@ -63,6 +66,31 @@ public abstract class AbstractPage implements Page {
 		}
 		// First we wait until the waiting screen is not showing anymore
 		waitForElementPresent(By.xpath(waiting_screen_not_showing));
+	}
+
+	/**
+	 * This method will handle the splash screen that shows up everywhere in the application
+	 * For the project import we have to wait a long time so we need to override the standard timeout
+	 * 
+	 */
+	public void handleProjectImport(){
+		this.wait = new WebDriverWait(driver, T60_SECONDS, 5);
+		// First we wait until the waiting screen is showing
+		try{
+			waitForElementPresent(By.xpath(waiting_screen_showing));
+		} catch (Exception e){
+			// The waiting screen doesn't always have to show or it very fast so we ignore this exception
+		}
+		
+		try{
+			// First we wait until the waiting screen is not showing anymore
+			waitForElementPresent(By.xpath(waiting_screen_not_showing));
+		} catch (Exception ex){
+			// Ignore this exception too
+		} finally {
+			// allways set the wait back to standard setting 
+			this.wait = new WebDriverWait(driver, T10_SECONDS, 1);
+		}
 	}
 	
 	/**
